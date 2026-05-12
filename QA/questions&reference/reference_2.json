@@ -1,0 +1,298 @@
+[
+  {
+    "question": "What parts are needed for step 1 of connector cm1 assembly?",
+    "answer": "positive sheet-type socket part p163,insulator core p195"
+  },
+  {
+    "question": "What parts are needed for step 2 of connector cm1 assembly?",
+    "answer": "negative sheet-type socket part p164,insulator core p195"
+  },
+  {
+    "question": "What parts are needed for step 3 of connector cm1 assembly?",
+    "answer": "rectangular insulator p196"
+  },
+  {
+    "question": "What parts are needed for step 4 of connector cm1 assembly?",
+    "answer": "wire pressing frame p127,socket part (include to connector p7)"
+  },
+  {
+    "question": "What parts are needed for step 5 of connector cm1 assembly?",
+    "answer": "locking plate p170,insulator core p195"
+  },
+  {
+    "question": "What parts are needed for step 6 of connector cm1 assembly?",
+    "answer": "insulation button p194,insulator core p195"
+  },
+  {
+    "question": "What parts are needed for step 7 of connector cm1 assembly?",
+    "answer": "rectangular insulation plate p186"
+  },
+  {
+    "question": "What parts are needed for step 8 of connector cm1 assembly?",
+    "answer": "screw bottoming tooling p157,M4composite slot screw p150"
+  },
+  {
+    "question": "What parts are needed for step 1 of connector cm2 assembly?",
+    "answer": "sheet contact p141,rectangular insulator p193"
+  },
+  {
+    "question": "What parts are needed for step 2 of connector cm2 assembly?",
+    "answer": "sheet contact p142,rectangular insulator p193"
+  },
+  {
+    "question": "What parts are needed for step 3 of connector cm2 assembly?",
+    "answer": "positioning plate p184,contact (installed ) ,rectangular insulator p193"
+  },
+  {
+    "question": "What parts are needed for step 5 of connector cm2 assembly?",
+    "answer": "inspection plate p152"
+  },
+  {
+    "question": "What parts are needed for step 1 of connector cm3 assembly?",
+    "answer": "sheet contact Bp174,rectangular insulator p192"
+  },
+  {
+    "question": "What parts are needed for step 2 of connector cm3 assembly?",
+    "answer": "sheet contact Ap171,rectangular insulator p192"
+  },
+  {
+    "question": "What parts are needed for step 3 of connector cm3 assembly?",
+    "answer": "positioning plate p184,contact (installed ) ,rectangular insulator p192,automation equipment ( tooling )"
+  },
+  {
+    "question": "What parts are needed for step 4 of connector cm3 assembly?",
+    "answer": "inspection plate p152"
+  },
+  {
+    "question": "What parts are needed for step 2 of connector cm4 assembly?",
+    "answer": "sheet contact Bp176,rectangular insulator p149"
+  },
+  {
+    "question": "What parts are needed for step 3 of connector cm4 assembly?",
+    "answer": "sheet contact Ap173,rectangular insulator p149"
+  },
+  {
+    "question": "What parts are needed for step 4 of connector cm4 assembly?",
+    "answer": "pin part p134,rectangular insulator p149"
+  },
+  {
+    "question": "What parts are needed for step 5 of connector cm4 assembly?",
+    "answer": "positioning plate p185,contact (p149) ,pressure machine"
+  },
+  {
+    "question": "What parts are needed for step 6 of connector cm4 assembly?",
+    "answer": "continuity withstand voltage tester"
+  },
+  {
+    "question": "What parts are needed for step 7 of connector cm4 assembly?",
+    "answer": "withstand voltage tester"
+  },
+  {
+    "question": "What parts are needed for step 8 of connector cm4 assembly?",
+    "answer": "round hole inspection plate p132"
+  },
+  {
+    "question": "What parts are needed for step 1 of connector cm5 assembly?",
+    "answer": "sheet contact Bp175,rectangular insulator p193"
+  },
+  {
+    "question": "What parts are needed for step 2 of connector cm5 assembly?",
+    "answer": "sheet contact Ap175,rectangular insulator p193"
+  },
+  {
+    "question": "What parts are needed for step 3 of connector cm5 assembly?",
+    "answer": "contact p193,positioning plate p183"
+  },
+  {
+    "question": "What parts are needed for step 4 of connector cm5 assembly?",
+    "answer": "inspection plate p201"
+  },
+  {
+    "question": "What parts are needed for step 2 of connector cm6 assembly?",
+    "answer": "10positioning spring p167 (qty 2) ,socket insulation plate p187"
+  },
+  {
+    "question": "What parts are needed for step 3 of connector cm6 assembly?",
+    "answer": "10positioning spring p167 (qty 2) ,socket insulator p199"
+  },
+  {
+    "question": "What parts are needed for step 5 of connector cm6 assembly?",
+    "answer": "socket insulator p199,insulation plate p187"
+  },
+  {
+    "question": "What parts are needed for step 6 of connector cm6 assembly?",
+    "answer": "claw check tooling p203"
+  },
+  {
+    "question": "What parts are needed for step 2 of connector cm7 assembly?",
+    "answer": "positioning spring p169 (qty 6) ,socket insulator component p136,foolproof positioning post p160,foolproof base p159"
+  },
+  {
+    "question": "What parts are needed for step 4 of connector cm7 assembly?",
+    "answer": "socket insulator component p136,socket insulation plate p146"
+  },
+  {
+    "question": "What parts are needed for step 5 of connector cm7 assembly?",
+    "answer": "claw check tooling p151"
+  },
+  {
+    "question": "What parts are needed for step 6 of connector cm7 assembly?",
+    "answer": "high-pressure air gun ( tooling )"
+  },
+  {
+    "question": "What parts are needed for step 2 of connector cm8 assembly?",
+    "answer": "contact Ap179 (qty 1) ,socket insulator p148"
+  },
+  {
+    "question": "What parts are needed for step 3 of connector cm8 assembly?",
+    "answer": "contact Bp180 (qty 1) ,socket insulator p148"
+  },
+  {
+    "question": "What parts are needed for step 4 of connector cm8 assembly?",
+    "answer": "pneumatic press p158, bottom basep161"
+  },
+  {
+    "question": "What parts are needed for step 5 of connector cm8 assembly?",
+    "answer": "inspection plate p155"
+  },
+  {
+    "question": "What parts are needed for step 6 of connector cm8 assembly?",
+    "answer": "high-pressure air gun ( tooling )"
+  },
+  {
+    "question": "What parts are needed for step 2 of connector cm9 assembly?",
+    "answer": "sheet contact Ap177 (qty 1) ,rectangular insulator p147"
+  },
+  {
+    "question": "What parts are needed for step 3 of connector cm9 assembly?",
+    "answer": "sheet contact Bp178 (qty 1) ,rectangular insulator p147"
+  },
+  {
+    "question": "What parts are needed for step 4 of connector cm9 assembly?",
+    "answer": "hand press ( tooling ) ,flat rivet punch p202 ( tooling ) ,sheet contact Bp178,rectangular insulator p147"
+  },
+  {
+    "question": "What parts are needed for step 5 of connector cm9 assembly?",
+    "answer": "inspection plate p155"
+  },
+  {
+    "question": "What parts are needed for step 6 of connector cm9 assembly?",
+    "answer": "high-pressure air gun ( tooling )"
+  },
+  {
+    "question": "What parts are needed for step 2 of connector cm10 assembly?",
+    "answer": "positioning spring p166 (qty 6) ,socket insulator component p137,foolproof positioning post p160,foolproof base p159"
+  },
+  {
+    "question": "What parts are needed for step 4 of connector cm10 assembly?",
+    "answer": "socket insulator component p137,socket insulation plate p188 (qty 1)"
+  },
+  {
+    "question": "What parts are needed for step 5 of connector cm10 assembly?",
+    "answer": "claw check tooling p156"
+  },
+  {
+    "question": "What parts are needed for step 6 of connector cm10 assembly?",
+    "answer": "high-pressure air gun ( tooling )"
+  },
+  {
+    "question": "What parts are needed for step 2 of connector cm11 assembly?",
+    "answer": "positioning spring p166 (qty 6) ,socket insulator component p137,foolproof positioning post p160,foolproof base p159"
+  },
+  {
+    "question": "What parts are needed for step 4 of connector cm11 assembly?",
+    "answer": "socket insulator component p137,socket insulation plate p188 (qty 1)"
+  },
+  {
+    "question": "What parts are needed for step 5 of connector cm11 assembly?",
+    "answer": "claw check tooling p156"
+  },
+  {
+    "question": "What parts are needed for step 6 of connector cm11 assembly?",
+    "answer": "high-pressure air gun ( tooling )"
+  },
+  {
+    "question": "What parts are needed for step 2 of connector cm12 assembly?",
+    "answer": "8positioning spring 21E8270040L41 (qty 14) ,insulation plate p190"
+  },
+  {
+    "question": "What parts are needed for step 4 of connector cm12 assembly?",
+    "answer": "plug insulator p190, plug head insulation plate p181"
+  },
+  {
+    "question": "What parts are needed for step 5 of connector cm12 assembly?",
+    "answer": "claw check tooling p200"
+  },
+  {
+    "question": "What parts are needed for step 6 of connector cm12 assembly?",
+    "answer": "high-pressure air gun ( tooling )"
+  },
+  {
+    "question": "What parts are needed for step 2 of connector cm13 assembly?",
+    "answer": "Φ10threaded pin p143 (qty 12) ,insulation plate p197"
+  },
+  {
+    "question": "What parts are needed for step 3 of connector cm13 assembly?",
+    "answer": "plug insulator p197,insulation plate p144"
+  },
+  {
+    "question": "What parts are needed for step 4 of connector cm13 assembly?",
+    "answer": "stainless steel cross recessed pan head screw p213 (qty 2) ,stainless steel type I hexagon nut ,electric screwdriver ( tooling )"
+  },
+  {
+    "question": "What parts are needed for step 5 of connector cm13 assembly?",
+    "answer": "high-pressure air gun ( tooling )"
+  },
+  {
+    "question": "What parts are needed for step 6 of connector cm13 assembly?",
+    "answer": "self-made withstand voltage fixture ( tooling )"
+  },
+  {
+    "question": "What parts are needed for step 1 of connector cm14 assembly?",
+    "answer": "none"
+  },
+  {
+    "question": "What parts are needed for step 2 of connector cm14 assembly?",
+    "answer": "electronic oil p212"
+  },
+  {
+    "question": "What parts are needed for step 3 of connector cm14 assembly?",
+    "answer": "φ10threaded open socket part p135 (qty 12) ,insulation plate p198"
+  },
+  {
+    "question": "What parts are needed for step 4 of connector cm14 assembly?",
+    "answer": "insulation plate p145,insulator p198"
+  },
+  {
+    "question": "What parts are needed for step 5 of connector cm14 assembly?",
+    "answer": "stainless steel cross recessed pan head screw p213 (qty 2) ,stainless steel type I hexagon nut ,electric screwdriver ( tooling )"
+  },
+  {
+    "question": "What parts are needed for step 6 of connector cm14 assembly?",
+    "answer": "guide pinp206 (qty 2) ,positioning plate p165,wrench p162"
+  },
+  {
+    "question": "What parts are needed for step 7 of connector cm14 assembly?",
+    "answer": "high-pressure air gun ( tooling )"
+  },
+  {
+    "question": "What parts are needed for step 8 of connector cm14 assembly?",
+    "answer": "self-made withstand voltage fixture ( tooling )"
+  },
+  {
+    "question": "What parts are needed for step 2 of connector cm15 assembly?",
+    "answer": "plug insulator p76,positioning claw p168 (qty 3) ,pickup rod p139"
+  },
+  {
+    "question": "What parts are needed for step 3 of connector cm15 assembly?",
+    "answer": "CCD inspection device p214"
+  },
+  {
+    "question": "What parts are needed for step 4 of connector cm15 assembly?",
+    "answer": "plug TPA insulator p189 (qty 1) ,plug insulator housing p76"
+  },
+  {
+    "question": "What parts are needed for step 5 of connector cm15 assembly?",
+    "answer": "high-pressure air gun ( tooling )"
+  }
+]

@@ -1,0 +1,386 @@
+[
+  {
+    "question": "In step 1 operation 05 install socket part of connector cm1, which part is the reference part?",
+    "answer": "insulator core ,model p62"
+  },
+  {
+    "question": "In step 1 operation 05 install socket part of connector cm1, which part is the assembly part?",
+    "answer": "positive sheet-type socket part ,model p26"
+  },
+  {
+    "question": "In step 2 operation 10 install socket part of connector cm1, which part is the reference part?",
+    "answer": "insulator core ,model p62"
+  },
+  {
+    "question": "In step 2 operation 10 install socket part of connector cm1, which part is the assembly part?",
+    "answer": "negative sheet-type socket part ,model p27"
+  },
+  {
+    "question": "In step 3 operation 15 install insulator of connector cm1, which part is the reference part?",
+    "answer": "previous step assembly"
+  },
+  {
+    "question": "In step 3 operation 15 install insulator of connector cm1, which part is the assembly part?",
+    "answer": "rectangular insulator ,model p63"
+  },
+  {
+    "question": "In step 4 operation 20 install wire pressing frame of connector cm1, which part is the reference part?",
+    "answer": "socket part ,model include to connector p1 middle"
+  },
+  {
+    "question": "In step 4 operation 20 install wire pressing frame of connector cm1, which part is the assembly part?",
+    "answer": "wire pressing frame ,model p6"
+  },
+  {
+    "question": "In step 5 operation 25 install locking plate of connector cm1, which part is the reference part?",
+    "answer": "insulator core ,model p62"
+  },
+  {
+    "question": "In step 5 operation 25 install locking plate of connector cm1, which part is the assembly part?",
+    "answer": "locking plate ,model p38"
+  },
+  {
+    "question": "In step 6 operation 30 install button of connector cm1, which part is the reference part?",
+    "answer": "insulator core ,model p62"
+  },
+  {
+    "question": "In step 6 operation 30 install button of connector cm1, which part is the assembly part?",
+    "answer": "insulation button ,model p61"
+  },
+  {
+    "question": "In step 7 operation 35 install insulation plate of connector cm1, which part is the reference part?",
+    "answer": "previous step assembly"
+  },
+  {
+    "question": "In step 7 operation 35 install insulation plate of connector cm1, which part is the assembly part?",
+    "answer": "rectangular insulation plate ,model p54"
+  },
+  {
+    "question": "In step 8 operation 40 install screw of connector cm1, which part is the reference part?",
+    "answer": "screw bottoming tooling ,model p84"
+  },
+  {
+    "question": "In step 8 operation 40 install screw of connector cm1, which part is the assembly part?",
+    "answer": "M4composite slot screw ,model p21"
+  },
+  {
+    "question": "In step 1 operation 05 install contact of connector cm2, which part is the reference part?",
+    "answer": "connector cm2assembly 1 step rectangular insulator ,model p60"
+  },
+  {
+    "question": "In step 1 operation 05 install contact of connector cm2, which part is the assembly part?",
+    "answer": "sheet contact ,model p14"
+  },
+  {
+    "question": "In step 2 operation 10 install contact of connector cm2, which part is the reference part?",
+    "answer": "rectangular insulator ,model p60"
+  },
+  {
+    "question": "In step 2 operation 10 install contact of connector cm2, which part is the assembly part?",
+    "answer": "sheet contact ,model p15"
+  },
+  {
+    "question": "In step 3 operation 15 press-fit of connector cm2, which part is the reference part?",
+    "answer": "rectangular insulator ,model p60"
+  },
+  {
+    "question": "In step 3 operation 15 press-fit of connector cm2, which part is the assembly part?",
+    "answer": "positioning plate ,model p52; contact"
+  },
+  {
+    "question": "In step 1 operation 05 install contact of connector cm3, which part is the reference part?",
+    "answer": "rectangular insulator ,model p59"
+  },
+  {
+    "question": "In step 1 operation 05 install contact of connector cm3, which part is the assembly part?",
+    "answer": "sheet contact B,model p43"
+  },
+  {
+    "question": "In step 2 operation 10 install contact of connector cm3, which part is the reference part?",
+    "answer": "rectangular insulator ,model p59"
+  },
+  {
+    "question": "In step 2 operation 10 install contact of connector cm3, which part is the assembly part?",
+    "answer": "sheet contact A,model p40"
+  },
+  {
+    "question": "In step 3 operation 15 press-fit of connector cm3, which part is the reference part?",
+    "answer": "rectangular insulator ,model p59"
+  },
+  {
+    "question": "In step 3 operation 15 press-fit of connector cm3, which part is the assembly part?",
+    "answer": "positioning plate ,model p52; contact"
+  },
+  {
+    "question": "In step 2 operation 10 install contact of connector cm4, which part is the reference part?",
+    "answer": "rectangular insulator ,model p20"
+  },
+  {
+    "question": "In step 2 operation 10 install contact of connector cm4, which part is the assembly part?",
+    "answer": "sheet contact B,model p45"
+  },
+  {
+    "question": "In step 3 operation 15 install contact of connector cm4, which part is the reference part?",
+    "answer": "rectangular insulator ,model p20"
+  },
+  {
+    "question": "In step 3 operation 15 install contact of connector cm4, which part is the assembly part?",
+    "answer": "sheet contact A,model p42"
+  },
+  {
+    "question": "In step 4 operation 25 install pin part of connector cm4, which part is the reference part?",
+    "answer": "rectangular insulator ,model p20"
+  },
+  {
+    "question": "In step 4 operation 25 install pin part of connector cm4, which part is the assembly part?",
+    "answer": "pin part ,model p8"
+  },
+  {
+    "question": "In step 5 operation 30 install positioning plate of connector cm4, which part is the reference part?",
+    "answer": "contact ,model p20"
+  },
+  {
+    "question": "In step 5 operation 30 install positioning plate of connector cm4, which part is the assembly part?",
+    "answer": "positioning plate ,model p53"
+  },
+  {
+    "question": "In step 8 operation 45 template check of connector cm4, which part is the assembly part?",
+    "answer": "round hole inspection plate ,model p23"
+  },
+  {
+    "question": "In step 1 operation 05 install socket part of connector cm5, which is the reference part?",
+    "answer": "rectangular insulator ,model p60"
+  },
+  {
+    "question": "In step 1 operation 05 install socket part of connector cm5, which is the assembly part?",
+    "answer": "sheet contact B,model p44"
+  },
+  {
+    "question": "In step 2 operation 10 install socket part of connector cm5, which is the reference part?",
+    "answer": "rectangular insulator ,model p60"
+  },
+  {
+    "question": "In step 2 operation 10 install socket part of connector cm5, which is the assembly part?",
+    "answer": "sheet contact A,model p44"
+  },
+  {
+    "question": "In step 3 operation 15 press-fit contact of connector cm5, which is the reference part?",
+    "answer": "contact ,model p60"
+  },
+  {
+    "question": "In step 3 operation 15 press-fit contact of connector cm5, which is the assembly part?",
+    "answer": "positioning plate ,model p51"
+  },
+  {
+    "question": "In step 2 operation 10 install positioning spring of connector cm6, which is the reference part?",
+    "answer": "socket insulation plate ,model p55"
+  },
+  {
+    "question": "In step 2 operation 10 install positioning spring of connector cm6, which is the assembly part?",
+    "answer": "10positioning spring ,model p35,qty 2"
+  },
+  {
+    "question": "In step 3 operation 15 install positioning spring of connector cm6, which is the reference part?",
+    "answer": "socket insulator ,model p66"
+  },
+  {
+    "question": "In step 3 operation 15 install positioning spring of connector cm6, which is the assembly part?",
+    "answer": "10positioning spring ,model p35,qty 2"
+  },
+  {
+    "question": "In step 5 operation 25 snap-fit of connector cm6, which is the reference part?",
+    "answer": "insulation plate ,model p55"
+  },
+  {
+    "question": "In step 5 operation 25 snap-fit of connector cm6, which is the assembly part?",
+    "answer": "socket insulator ,model p66"
+  },
+  {
+    "question": "In step 5 operation 25 snap-fit of connector cm6, which is the product?",
+    "answer": "connector ,model cm6"
+  },
+  {
+    "question": "In step 2 operation 10 install positioning spring of connector cm7, which is the reference part?",
+    "answer": "socket insulator component ,model p12"
+  },
+  {
+    "question": "In step 2 operation 10 install positioning spring of connector cm7, which is the assembly part?",
+    "answer": "positioning spring ,model p37,qty 6"
+  },
+  {
+    "question": "In step 3 operation 15 pre-snap claw check of connector cm7, which is the assembly part?",
+    "answer": "positioning spring"
+  },
+  {
+    "question": "In step 4 operation 20 snap-fit of connector cm7, which is the reference part?",
+    "answer": "socket insulation plate ,model p17"
+  },
+  {
+    "question": "In step 4 operation 20 snap-fit of connector cm7, which is the assembly part?",
+    "answer": "socket insulator component ,model p12"
+  },
+  {
+    "question": "In step 2 operation 10 install socket part of connector cm8, which is the reference part?",
+    "answer": "socket insulator ,model p19"
+  },
+  {
+    "question": "In step 2 operation 10 install socket part of connector cm8, which is the assembly part?",
+    "answer": "contact A,model p48,qty 1"
+  },
+  {
+    "question": "In step 3 operation 15 install socket part of connector cm8, which is the reference part?",
+    "answer": "socket insulator ,model p19"
+  },
+  {
+    "question": "In step 3 operation 15 install socket part of connector cm8, which is the assembly part?",
+    "answer": "contact B,model p49,qty 1"
+  },
+  {
+    "question": "In step 4 operation 20 press-fit of connector cm8, which is the reference part?",
+    "answer": "socket insulator"
+  },
+  {
+    "question": "In step 2 operation 10 install socket part of connector cm9, which is the reference part?",
+    "answer": "rectangular insulator ,model p18"
+  },
+  {
+    "question": "In step 2 operation 10 install socket part of connector cm9, which is the assembly part?",
+    "answer": "sheet contact A,model p46,qty 1"
+  },
+  {
+    "question": "In step 3 operation 15 install socket part of connector cm9, which is the reference part?",
+    "answer": "rectangular insulator ,model p18"
+  },
+  {
+    "question": "In step 3 operation 15 install socket part of connector cm9, which is the assembly part?",
+    "answer": "sheet contact B,model p47,qty 1"
+  },
+  {
+    "question": "In step 4 operation 20 press-fit of connector cm9, which is the reference part?",
+    "answer": "rectangular insulator"
+  },
+  {
+    "question": "In step 4 operation 20 press-fit of connector cm9, which is the assembly part?",
+    "answer": "sheet contact B"
+  },
+  {
+    "question": "In step 2 operation 10 install positioning spring of connector cm11, which is the reference part?",
+    "answer": "socket insulator component ,model p13"
+  },
+  {
+    "question": "In step 2 operation 10 install positioning spring of connector cm11, which is the assembly part?",
+    "answer": "positioning spring ,model p33,qty 6"
+  },
+  {
+    "question": "In step 4 operation 20 snap-fit of connector cm11, which is the reference part?",
+    "answer": "socket insulator component ,model p13"
+  },
+  {
+    "question": "In step 4 operation 20 snap-fit of connector cm11, which is the assembly part?",
+    "answer": "socket insulation plate ,model p56,qty 1"
+  },
+  {
+    "question": "In step 5 operation 25 post-snap claw check of connector cm11, which is the tooling?",
+    "answer": "claw check tooling ,model p83"
+  },
+  {
+    "question": "In step 5 operation 25 post-snap claw check of connector cm11, which is the product?",
+    "answer": "connector ,model p208"
+  },
+  {
+    "question": "In step 2 operation 10 install positioning spring of connector cm12, which is the reference part?",
+    "answer": "insulation plate ,model p58"
+  },
+  {
+    "question": "In step 2 operation 10 install positioning spring of connector cm12, which is the assembly part?",
+    "answer": "8positioning spring ,model p34,qty 14"
+  },
+  {
+    "question": "In step 4 operation 20 snap-fit of connector cm12, which is the reference part?",
+    "answer": "plug insulator ,model p58"
+  },
+  {
+    "question": "In step 4 operation 20 snap-fit of connector cm12, which is the assembly part?",
+    "answer": "plug head insulation plate ,model p50"
+  },
+  {
+    "question": "In step 5 operation 25 post-snap check of connector cm12, which is the tooling?",
+    "answer": "claw check tooling ,model p128"
+  },
+  {
+    "question": "In step 2 operation 10 install positioning spring of connector cm13, which is the reference part?",
+    "answer": "insulation plate ,model p64"
+  },
+  {
+    "question": "In step 2 operation 10 install positioning spring of connector cm13, which is the assembly part?",
+    "answer": "Φ10threaded pin ,model p16,qty 12"
+  },
+  {
+    "question": "In step 3 operation 15 snap-fit of connector cm13, which is the reference part?",
+    "answer": "insulation plate ,model p3"
+  },
+  {
+    "question": "In step 3 operation 15 snap-fit of connector cm13, which is the assembly part?",
+    "answer": "plug insulator ,model p64"
+  },
+  {
+    "question": "In step 4 operation 20 install fastener of connector cm13, which is the reference part?",
+    "answer": "previous step assembly"
+  },
+  {
+    "question": "In step 4 operation 20 install fastener of connector cm13, which is the assembly part?",
+    "answer": "stainless steel cross recessed pan head screw ,model p210,qty 2; stainless steel type I hexagon nut"
+  },
+  {
+    "question": "In step 3 operation 15 install socket part of connector cm14, which is the reference part?",
+    "answer": "insulation plate ,model p65"
+  },
+  {
+    "question": "In step 3 operation 15 install socket part of connector cm14, which is the assembly part?",
+    "answer": "φ10threaded open socket part ,model p11,qty 12"
+  },
+  {
+    "question": "In step 4 operation 20 snap-fit of connector cm14, which is the reference part?",
+    "answer": "insulator ,model p65"
+  },
+  {
+    "question": "In step 4 operation 20 snap-fit of connector cm14, which is the assembly part?",
+    "answer": "insulation plate ,model p4"
+  },
+  {
+    "question": "In step 5 operation 25 install fastener of connector cm14, which is the reference part?",
+    "answer": "previous step assembly"
+  },
+  {
+    "question": "In step 5 operation 25 install fastener of connector cm14, which is the assembly part?",
+    "answer": "stainless steel cross recessed pan head screw (model p210,qty 2) , stainless steel type I hexagon nut"
+  },
+  {
+    "question": "In step 6 operation 30 install guide pin of connector cm14, which is the reference part?",
+    "answer": "previous step assembly"
+  },
+  {
+    "question": "In step 6 operation 30 install guide pin of connector cm14, which is the assembly part?",
+    "answer": "guide pin,model p93,qty 2"
+  },
+  {
+    "question": "In step 6 operation 30 install guide pin of connector cm14, which is the tooling?",
+    "answer": "positioning plate (model p92) , wrench (model p89)"
+  },
+  {
+    "question": "In step 2 operation 10 install positioning claw of connector cm15, which is the reference part?",
+    "answer": "plug insulator ,model p2"
+  },
+  {
+    "question": "In step 2 operation 10 install positioning claw of connector cm15, which is the assembly part?",
+    "answer": "positioning claw ,model p36,qty 3"
+  },
+  {
+    "question": "In step 4 operation 20 install plug TPA insulator of connector cm15, which is the reference part?",
+    "answer": "plug insulator housing ,model p2"
+  },
+  {
+    "question": "In step 4 operation 20 install plug TPA insulator of connector cm15, which is the assembly part?",
+    "answer": "plug TPA insulator ,model p57,qty 1"
+  }
+]

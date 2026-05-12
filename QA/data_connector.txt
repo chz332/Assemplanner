@@ -1,0 +1,232 @@
+Assembly process for connector cm1
+
+Install socket part: single positive sheet-type socket part p44 sequentially into insulator core p76. The insulator core is the base part, and the positive sheet-type socket part is the assembly part.
+Install socket part: single negative sheet-type socket part p23 sequentially into insulator core p54. The insulator core is the base part, and the negative sheet-type socket part is the assembly part.
+Install insulator: rectangular insulator p55 onto previous step assembly. The previous step assembly is the base part, and the rectangular insulator is the assembly part.
+Install wire pressing frame: install 2 wire pressing frames p2 respectively into the two socket parts. The socket parts are the base parts, and the wire pressing frames are the assembly parts.
+Install locking plate: single locking plate p30 into insulator core p54. The insulator core is the base part, and the locking plate is the assembly part.
+Install button: single insulation button p53 into insulator core p54. The insulator core is the base part, and the insulation button is the assembly part.
+Install insulation plate: insulation plate p46 onto previous step assembly. The previous step assembly is the base part.
+Install screws: place 6 assemblies into screw bottoming tooling p65, tighten each M4 composite slot screw p17 using an electric screwdriver. The screw bottoming tooling is the base part, and the M4 composite slot screw is the assembly part.
+High-pressure air blow.
+
+Assembly process for connector cm2
+
+Install contact: single sheet contact p10 into rectangular insulator p52 hole 1. The rectangular insulator is the base part, and the sheet contact is the assembly part.
+Install contact: single sheet contact p11 into rectangular insulator p52 hole 1. The rectangular insulator is the base part, and the sheet contact is the assembly part.
+Press-fit: press the contacts and positioning plate p44 into rectangular insulator p52 using automation equipment. The rectangular insulator is the base part, and the positioning plate and contacts are the assembly parts.
+Laser marking: mark the position centered, 5±1 mm from top, character height 1.8±0.5 mm, single-line font.
+Template inspection: inspect 100% of products using inspection plate p60. The connector is the base part, and the inspection plate is the tooling.
+High-pressure air blow.
+
+Assembly process for connector cm3
+
+Install contact: single sheet contact B p35 into rectangular insulator p51. The rectangular insulator is the base part, and sheet contact B is the assembly part.
+Install contact: single sheet contact A p32 into rectangular insulator p51. The rectangular insulator is the base part, and sheet contact A is the assembly part.
+Press-fit: press the contacts and positioning plate p44 into rectangular insulator p51 using automation equipment. The rectangular insulator is the base part, and the positioning plate and contacts are the assembly parts.
+Template inspection: inspect 100% of products using inspection plate p60. The connector is the base part, and the inspection plate is the tooling.
+High-pressure air blow.
+
+Assembly process for connector cm4
+
+Laser marking.
+Install contact: single sheet contact B p37 into rectangular insulator p16. The rectangular insulator is the base part, and sheet contact B is the assembly part.
+Install contact: single sheet contact A p34 into rectangular insulator p16. The rectangular insulator is the base part, and sheet contact A is the assembly part.
+Install pin part: single pin part p4 into rectangular insulator p16. The rectangular insulator is the base part, and the pin part is the assembly part.
+Install positioning plate: press-fit positioning plate p45 with contact p16 using a press. The contact is the base part, and the positioning plate is the assembly part.
+Continuity test: place the product in the withstand voltage continuity tester and perform the test.
+Withstand voltage test: perform the withstand voltage test after mating the connector.
+Template inspection: inspect position using round hole inspection plate p4. The connector is the base part, and the inspection plate is the tooling.
+High-pressure air blow.
+
+Assembly process for connector cm5
+
+Install socket part: sheet contact B p36 into rectangular insulator p52 hole 2. The rectangular insulator is the base part, and sheet contact B is the assembly part.
+Install socket part: sheet contact A p36 into rectangular insulator p52 hole 1. The rectangular insulator is the base part, and sheet contact A is the assembly part.
+Press-fit contact: press-fit the contact p52 and positioning plate p43. Contact model p52, positioning plate model p43.
+Template inspection: inspect 100% of products using inspection plate p74.
+Laser marking.
+High-pressure air blow.
+
+Assembly process for connector cm6
+
+Laser marking.
+Install positioning spring: install 2 positioning springs p27 into socket insulation plate p47 holes 2 and 3. The socket insulation plate is the base part, and the positioning springs are the assembly parts.
+Install positioning spring: install 2 positioning springs p27 into socket insulator p58 holes 1 and 4. The socket insulator is the base part, and the positioning springs are the assembly parts.
+Check: inspect 100% of positioning springs.
+Snap-fit: snap-fit socket insulator p58 onto insulation plate p47. The insulation plate is the base part, and the socket insulator is the assembly part.
+Check: inspect positioning spring installation quantity and direction 100% using claw check tooling p76.
+High-pressure air blow.
+
+Assembly process for connector cm7
+
+Laser marking.
+Install positioning spring: install 6 positioning springs p29 into socket insulator part using foolproof positioning post p68 and foolproof base p67. The socket insulator part is the assembly part, and the positioning springs are the assembly parts.
+Pre-snap claw check: inspect 100% of positioning springs.
+Snap-fit: snap-fit socket insulator part p8 onto socket insulation plate p13. The socket insulation plate is the base part, and the socket insulator part is the assembly part.
+Post-snap claw check: check positioning spring installation direction using claw check tooling p59.
+High-pressure air blow: hold the product below the work surface, use a high-pressure air gun pointing downward, rotate while blowing.
+
+Assembly process for connector cm8
+
+Laser marking.
+Install socket part: install contact A p40 into the socket insulator p15 from the left side hole. The socket insulator is the base part, and contact A is the assembly part.
+Install socket part: install contact B p41 into the socket insulator p15 from the right side hole. The socket insulator is the base part, and contact B is the assembly part.
+Press-fit: press the contacts until flush with the insulator surface using pneumatic press p66. The pneumatic press is the tooling.
+Template inspection: inspect using inspection plate p63.
+High-pressure air blow.
+
+Assembly process for connector cm9
+
+Laser marking.
+Install socket part: install sheet contact A p38 into rectangular insulator p14 from the left side hole. The rectangular insulator is the base part, and sheet contact A is the assembly part.
+Install socket part: install sheet contact B p39 into the rectangular insulator. The rectangular insulator is the base part, and sheet contact B is the assembly part.
+Press-fit: press-fit using flat rivet punch p13 on a hand press. The rectangular insulator is the base part, and sheet contact B is the assembly part.
+Template inspection: inspect contact assembly using inspection plate p63. The connector is the product, and the inspection plate is the tooling.
+High-pressure air blow.
+
+Assembly process for connector cm10
+
+Laser marking.
+Install positioning spring: install 6 positioning springs p25 into socket insulator part p9 using foolproof positioning post p68 and foolproof base p67. The socket insulator part is the base part, and the positioning springs are the assembly parts.
+Pre-snap claw check: inspect 100% of positioning springs.
+Snap-fit: snap-fit socket insulator part p9 onto socket insulation plate p48. The socket insulator part is the base part, and the socket insulation plate is the assembly part.
+Post-snap claw check: check positioning spring installation using claw check tooling p64.
+High-pressure air blow.
+
+Assembly process for connector cm11
+
+Laser marking.
+Install positioning spring: install 6 positioning springs p25 into socket insulator part p9 using foolproof positioning post p68 and foolproof base p67. The socket insulator part is the base part, and the positioning springs are the assembly parts.
+Pre-snap claw check: inspect 100% of positioning springs and ensure correct installation.
+Snap-fit: snap-fit socket insulator part p9 onto socket insulation plate p48. The socket insulator part is the base part, and the socket insulation plate is the assembly part.
+Post-snap claw check: check positioning spring direction and verify no missing, wrong, deformed, or straight claw conditions using claw check tooling p64.
+High-pressure air blow.
+
+Assembly process for connector cm12
+
+Laser marking.
+Install positioning spring: install 14 positioning springs p26 into insulation plate p50 holes 1-14. The insulation plate is the base part, and the positioning springs are the assembly parts.
+Check: inspect 100% of positioning springs.
+Snap-fit: snap-fit insulator p50 onto insulation plate p42. The insulation plate is the base part, and the insulator is the assembly part.
+Post-snap check: check positioning spring installation using claw check tooling p73.
+High-pressure air blow.
+
+Assembly process for connector cm13
+
+Laser marking.
+Install positioning spring: install 12 threaded pins p12 into insulation plate p56 holes 1-12. The insulation plate is the base part, and the threaded pins are the assembly parts.
+Snap-fit: snap-fit insulator p56 onto insulation plate p2. The insulation plate is the base part, and the insulator is the assembly part.
+Install fastener: install 2 stainless steel cross recessed pan head screws p84 (M2x16) and assemble stainless steel I hexagon nuts using an electric screwdriver. The previous step assembly is the base part.
+High-pressure air blow.
+Withstand voltage test: test using a withstand voltage fixture.
+
+Assembly process for connector cm14
+
+Laser marking.
+Immerse in electronic oil: immerse the part in electronic oil p83.
+Install socket part: install 12 threaded open socket parts p7 into insulation plate p57 holes. The insulation plate is the base part, and the threaded open socket parts are the assembly parts.
+Snap-fit: snap-fit insulation plate p3 onto insulator p57. The insulator is the base part, and the insulation plate is the assembly part.
+Install fastener: install 2 stainless steel cross recessed pan head screws p84 (M2x16) and assemble stainless steel I hexagon nuts using an electric screwdriver. The previous step assembly is the base part.
+Install guide pin: install 2 guide pins p72 using positioning plate p71 and wrench p70. The previous step assembly is the base part, and the guide pins are the assembly parts.
+High-pressure air blow.
+Withstand voltage test: test using a withstand voltage fixture.
+
+Assembly process for connector cm15
+
+Laser marking.
+Install positioning claw: install 3 positioning claws p28 onto pickup rod p24, then assemble into plug insulator p1. The plug insulator is the base part, and the positioning claws are the assembly parts.
+CCD inspection: observe under CCD inspection device p85 to verify all claws are properly positioned inside the insulator cavity. The CCD inspection device is the tooling.
+Install plug TPA insulator: install plug TPA insulator p49 into plug insulator housing p1. The plug insulator housing is the base part, and the plug TPA insulator is the assembly part.
+High-pressure air blow.
+
+Assembly process for connector cm16
+
+Break off: clamp and break signal contacts from the carrier tape.
+Pre-install: install signal contacts into insulator holes 1 and 2.
+Press-fit: press the contacts into the insulator using press-fit fixture and hand press.
+Install contact: install AC contact 1 into insulator hole 3.
+Press-fit: press-fit AC contact 1.
+Install contact: install AC contact 2 into insulator hole 4.
+Press-fit: press-fit AC contact 2 gently.
+Install contact: install AC contact 1-1 into insulator hole 5.
+Press-fit: press-fit AC contact 1-1.
+Install contact: install AC contact 2-1 into insulator hole 6.
+Press-fit: press-fit AC contact 2-1.
+Install contact: install DC contact 2 into insulator hole 7.
+Install contact: install DC contact 1 into insulator hole 8.
+Install contact: install DC wide contact 2 into insulator hole 9.
+Install contact: install DC wide contact 1 into insulator hole 10.
+Install insulation plate: install the insulation plate onto the previous step assembly.
+Press-fit insulation plate: press the insulation plate flush with the insulator end face using a rubber hammer.
+Soldering: tin each stripped wire at 420-450 degree C, then sort and label the wires.
+Install contact part: assemble the socket parts into the corresponding insulator holes.
+Install contact part: repeat the previous process for additional socket parts.
+Soldering: solder using a soldering iron and solder wire.
+Press-fit: assemble the insulation block onto the insulator.
+Install socket insulator: install pin insulator terminal 1 into the pin part and terminal 2 into the pin part.
+Install socket insulator: install socket insulator terminal 1 into the socket part and terminal 2 into the socket part.
+Withstand voltage test: perform withstand voltage testing.
+Continuity test: test 100% of signal pins using a continuity tester.
+Terminal test: perform a 20-30 degree angle tilt test on the pin/socket insulators.
+High-pressure air blow.
+
+Assembly process for connector cm17
+
+Laser marking.
+Thread inspection: perform screw-in and screw-out on the product holes using an M6 go/no-go gauge.
+Terminal inspection: check that the pin part barbs are properly engaged with the pin insulator.
+Continuity withstand voltage test: mate the terminals, place the product on the test fixture, and perform the test.
+CCD inspection: inspect using DP series automatic inspection equipment.
+High-pressure air blow.
+
+Assembly process for connector cm18
+
+Laser marking.
+Inspection: check the distance between the resistor cylinder and the small board using a 0.5 mm feeler gauge (requirement: 0.5-1 mm) and a 1.6 mm feeler gauge (requirement: 0.5-1.5 mm).
+Install nut: press-fit using a pneumatic press.
+Install nut: press-fit two M5 square nuts.
+Pre-install: install the contact into the corresponding insulator hole.
+Press-fit: press-fit the pin into the insulator using a hand press and assembly tooling.
+Pre-install: install the contact into the corresponding insulator hole.
+Press-fit: press-fit the pin into the insulator using a hand press and assembly tooling.
+Inspect: check that the screw can be fully tightened.
+Install plug block: install two plug blocks into the corresponding insulator holes using tooling p7.
+Pre-install: install the PE contact into the corresponding insulator hole.
+Press-fit: press-fit using a hand press and p80 contact press-fit tooling.
+Pre-install: install two AC short contacts into the corresponding insulator holes.
+Press-fit: press-fit using a hand press.
+Pre-install: install two AC long contacts into the corresponding insulator holes.
+Press-fit: press-fit the AC long contacts using a hand press and assembly tooling.
+Pre-install: place the pre-installed signal contacts and tooling into the corresponding holes, ensuring consistent orientation.
+Press-fit: press-fit using a hand press and p82 signal contact assembly fixture.
+Assembly: assemble the single-board soldered component with the semi-finished insulator, then press-fit using a hand press.
+Continuity test: test 100% of products using a continuity tester.
+GAP value test: place qualified products into the CCD for 100% GAP value testing.
+High-pressure air blow.
+
+Assembly process for connector cm19
+
+Carrier tape break-off: break off the sheet part p31 from the carrier tape.
+Install contact: install the contact into hole 1.
+Press-fit: press-fit in place using a hand press and press head.
+Install contact: install the short DC contact into hole 2.
+Install contact: install the long DC contact 2 into hole 3.
+Install contact: install the short DC narrow contact 1 into hole 4.
+Install contact: install the long DC narrow contact 2 into hole 5.
+Install insulation plate: install 2 insulation plates into corresponding holes 6 and 7.
+Press-fit: press-fit the insulation plates using DP4SC0504 insulation plate press-fit tooling.
+Install contact part: place the insulator into tooling p20, assemble socket part p5 at insulator hole 26 and socket part p6 at insulator hole 25.
+Install contact part: place the insulator into tooling p20, assemble pin part p20 at insulator hole 28 and pin part p21 at insulator hole 27.
+Press-fit: place the previous step assembly horizontally on tooling p15 and press-fit.
+Apply heat shrink tube: place the insulator component into tooling p20, thread 2 dia 2.5 heat shrink tubes (L=10 mm) onto the pin part head.
+Apply heat shrink tube: place the insulator component into tooling p20, tilt 20-30 degrees and smooth the heat shrink tubes to the cross slot bottom, flush with the insulator end face.
+Twist wire: rotate the pin part barb 180 degrees.
+Install pin insulator: install pin insulator terminal 1 into the pin part and terminal 2 into the pin part.
+Install pin insulator: same as above, confirm wiring and firmness.
+Heat shrink: preheat the equipment for 10 minutes, temperature 290 +/- 15 degree C.
+Continuity test: test 100% using test fixture p6.
+Withstand voltage test: perform withstand voltage testing.
+Terminal test: push the wire forward, press down, and gently pull.
+Dimension test: place the product on a test fixture for dimension testing.
+High-pressure air blow.

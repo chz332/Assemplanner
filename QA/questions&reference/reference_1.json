@@ -1,0 +1,666 @@
+[
+  {
+    "question": "What is step 1 of connector cm1 assembly?",
+    "answer": "1: install socket part ,single positive sheet-type socket part p163 install into insulator core p195 inner ."
+  },
+  {
+    "question": "What is step 2 of connector cm1 assembly?",
+    "answer": "2: install socket part ,single negative sheet-type socket part p164 install into insulator core p195 inner ."
+  },
+  {
+    "question": "What is step 3 of connector cm1 assembly?",
+    "answer": "3: install insulator ,rectangular insulator p196install to previous step assembly upper ."
+  },
+  {
+    "question": "What is step 4 of connector cm1 assembly?",
+    "answer": "4: install wire pressing frame ,2wire pressing frame p196respectively install into two socket part upper ."
+  },
+  {
+    "question": "What is step 5 of connector cm1 assembly?",
+    "answer": "5: install locking plate ,single locking plate p170 install into insulator core p195 inner ."
+  },
+  {
+    "question": "What is step 6 of connector cm1 assembly?",
+    "answer": "6: install button ,single insulation button p194 install into insulator core p195 inner ."
+  },
+  {
+    "question": "What is step 7 of connector cm1 assembly?",
+    "answer": "7: install insulation plate ,rectangular insulation plate p186install to previous step assembly upper ."
+  },
+  {
+    "question": "What is step 8 of connector cm1 assembly?",
+    "answer": "8: install screw,6previous step assembly place into screw bottoming tooling p157 inner ,using electric screwdriver tighten each M4composite slot screw p150."
+  },
+  {
+    "question": "What is step 9 of connector cm1 assembly?",
+    "answer": "9: high-pressure blowing"
+  },
+  {
+    "question": "What is step 1 of connector cm2 assembly?",
+    "answer": "single sheet contact (p141) pre-install to rectangular insulator p193 1 hole inner ,after pre-installation, contact notch fully engages with the insulator boss ."
+  },
+  {
+    "question": "What is step 2 of connector cm2 assembly?",
+    "answer": "single sheet contact (p142) pre-install to rectangular insulator p193 1 hole inner ,after pre-installation, contact notch fully engages with the insulator boss ."
+  },
+  {
+    "question": "What is step 3 of connector cm2 assembly?",
+    "answer": "contact and single positioning plate p184press-fit to rectangular insulator p193 upper"
+  },
+  {
+    "question": "What is step 4 of connector cm2 assembly?",
+    "answer": "marking position centered , from top 5±1mm,marking content according to drawing and route card info configure , char height 1.8mm±0.5mm, font single-line font ."
+  },
+  {
+    "question": "What is step 5 of connector cm2 assembly?",
+    "answer": "using inspection plate p152product 100%perform position inspection"
+  },
+  {
+    "question": "What is step 6 of connector cm2 assembly?",
+    "answer": "high-pressure blowing"
+  },
+  {
+    "question": "What is step 1 of connector cm3 assembly?",
+    "answer": "install contact ,single sheet contact B (p174) pre-install to rectangular insulator p192 hole inner ,after pre-installation, contact notch fully engages with the insulator boss ."
+  },
+  {
+    "question": "What is step 2 of connector cm3 assembly?",
+    "answer": "install contact ,single sheet contact A (p171) pre-install to rectangular insulator p192 hole inner ,after pre-installation, contact notch fully engages with the insulator boss ."
+  },
+  {
+    "question": "What is step 3 of connector cm3 assembly?",
+    "answer": "press-fit ,using automation equipment contact and single positioning plate p184press-fit to rectangular insulator p192 upper ."
+  },
+  {
+    "question": "What is step 4 of connector cm3 assembly?",
+    "answer": "template inspection ,using inspection plate p152product 100%perform position inspection"
+  },
+  {
+    "question": "What is step 5 of connector cm3 assembly?",
+    "answer": "high-pressure blowing"
+  },
+  {
+    "question": "What is step 1 of connector cm4 assembly?",
+    "answer": "laser marking"
+  },
+  {
+    "question": "What is step 2 of connector cm4 assembly?",
+    "answer": "install contact ,single sheet contact B (p176) pre-install to rectangular insulator p149 hole inner ,after pre-installation, contact notch fully engages with the insulator boss ."
+  },
+  {
+    "question": "What is step 3 of connector cm4 assembly?",
+    "answer": "install contact ,single sheet contact A (p173) pre-install to rectangular insulator p149 hole inner ,after pre-installation, contact notch fully engages with the insulator boss ."
+  },
+  {
+    "question": "What is step 4 of connector cm4 assembly?",
+    "answer": "install pin part ,single pin part (p134) assembly to rectangular insulator p149 hole inner ,after assembly, pin component claw fully engages with the insulator opening ."
+  },
+  {
+    "question": "What is step 5 of connector cm4 assembly?",
+    "answer": "install positioning plate ,using hand press contact p149 and single positioning plate p185press-fit in place ."
+  },
+  {
+    "question": "What is step 6 of connector cm4 assembly?",
+    "answer": "continuity test ,place the product in withstand voltage continuity tester test slot inner ,simultaneously press continuity tester upper two green buttons perform withstand voltage continuity test ,no insulation breakdown or surface flashover ."
+  },
+  {
+    "question": "What is step 1 of connector cm5 assembly?",
+    "answer": "install socket part ,single sheet contact B (p175) pre-install to rectangular insulator p193 2 hole inner ,after pre-installation, contact notch fully engages with the insulator boss ."
+  },
+  {
+    "question": "What is step 2 of connector cm5 assembly?",
+    "answer": "install socket part ,single sheet contact A (p172) pre-install to rectangular insulator p193 1 hole inner ,after pre-installation, contact notch fully engages with the insulator boss ."
+  },
+  {
+    "question": "What is step 3 of connector cm5 assembly?",
+    "answer": "press-fit contact ,using automation equipment contact p193 and single positioning plate p183press-fit in place ."
+  },
+  {
+    "question": "What is step 4 of connector cm5 assembly?",
+    "answer": "template inspection ,using inspection plate p201product 100%perform position inspection"
+  },
+  {
+    "question": "What is step 5 of connector cm5 assembly?",
+    "answer": "laser marking"
+  },
+  {
+    "question": "What is step 6 of connector cm5 assembly?",
+    "answer": "high-pressure blowing"
+  },
+  {
+    "question": "What is step 1 of connector cm6 assembly?",
+    "answer": "laser marking"
+  },
+  {
+    "question": "What is step 2 of connector cm6 assembly?",
+    "answer": "install positioning spring ,210positioning spring p167 claw facing upper sequentially install into socket insulation plate p187 2, 3 hole."
+  },
+  {
+    "question": "What is step 3 of connector cm6 assembly?",
+    "answer": "install positioning spring ,210positioning spring p167claw facing lower sequentially install into socket insulator p199 1, 4 hole inner ."
+  },
+  {
+    "question": "What is step 4 of connector cm6 assembly?",
+    "answer": "check ,positioning springs must be 100% inspected for correct installation"
+  },
+  {
+    "question": "What is step 5 of connector cm6 assembly?",
+    "answer": "snap-fit ,socket insulator p199snap-fit to single insulation plate p187 upper ."
+  },
+  {
+    "question": "What is step 6 of connector cm6 assembly?",
+    "answer": "check ,using claw check tooling p203,100% check positioning spring installed correctly ."
+  },
+  {
+    "question": "What is step 7 of connector cm6 assembly?",
+    "answer": "high-pressure blowing"
+  },
+  {
+    "question": "What is step 1 of connector cm7 assembly?",
+    "answer": "laser marking"
+  },
+  {
+    "question": "What is step 2 of connector cm7 assembly?",
+    "answer": "install positioning spring ,positioning spring p169 (6) claw facing upper using foolproof positioning post p160 and foolproof base p159fix rear install into socket insulator component hole inner ."
+  },
+  {
+    "question": "What is step 3 of connector cm7 assembly?",
+    "answer": "pre-snap claw check ,100% check positioning springs"
+  },
+  {
+    "question": "What is step 4 of connector cm7 assembly?",
+    "answer": "snap-fit ,socket insulator component p136snap-fit to single socket insulation plate p146 upper"
+  },
+  {
+    "question": "What is step 5 of connector cm7 assembly?",
+    "answer": "post-snap claw check ,using claw check tooling p151check positioning spring installed correctly"
+  },
+  {
+    "question": "What is step 6 of connector cm7 assembly?",
+    "answer": "high-pressure blowing"
+  },
+  {
+    "question": "What is step 1 of connector cm8 assembly?",
+    "answer": "laser marking"
+  },
+  {
+    "question": "What is step 2 of connector cm8 assembly?",
+    "answer": "install socket part ,single model as p179 contact A install into socket insulator"
+  },
+  {
+    "question": "What is step 3 of connector cm8 assembly?",
+    "answer": "install socket part ,single model as p180 contact B install into socket insulator"
+  },
+  {
+    "question": "What is step 4 of connector cm8 assembly?",
+    "answer": "press-fit ,using pneumatic press p158two edge button contact perform pressing ."
+  },
+  {
+    "question": "What is step 5 of connector cm8 assembly?",
+    "answer": "template inspection ,contact pin align inspection plate p155 hole,perform inspection ."
+  },
+  {
+    "question": "What is step 6 of connector cm8 assembly?",
+    "answer": "high-pressure blowing."
+  },
+  {
+    "question": "What is step 1 of connector cm9 assembly?",
+    "answer": "laser marking"
+  },
+  {
+    "question": "What is step 2 of connector cm9 assembly?",
+    "answer": "install socket part ,single model as p177 sheet contact A install into rectangular insulator"
+  },
+  {
+    "question": "What is step 3 of connector cm9 assembly?",
+    "answer": "install socket part ,single sheet contact B (p178) install into rectangular insulator ."
+  },
+  {
+    "question": "What is step 4 of connector cm9 assembly?",
+    "answer": "press-fit ,contact press-fit in place"
+  },
+  {
+    "question": "What is step 5 of connector cm9 assembly?",
+    "answer": "template inspection ,using inspection plate (p155) inspect contact assembly is qualified"
+  },
+  {
+    "question": "What is step 6 of connector cm9 assembly?",
+    "answer": "high-pressure blowing"
+  },
+  {
+    "question": "What is step 1 of connector cm10 assembly?",
+    "answer": "laser marking"
+  },
+  {
+    "question": "What is step 2 of connector cm10 assembly?",
+    "answer": "install positioning spring ,positioning spring p166 (6) claw facing upper full install into socket insulator component p137 hole inner ."
+  },
+  {
+    "question": "What is step 3 of connector cm10 assembly?",
+    "answer": "pre-snap claw check ,100% check positioning springs"
+  },
+  {
+    "question": "What is step 4 of connector cm10 assembly?",
+    "answer": "snap-fit ,socket insulator component p137snap-fit to single socket insulation plate p188 upper ."
+  },
+  {
+    "question": "What is step 5 of connector cm10 assembly?",
+    "answer": "post-snap claw check ,using claw check tooling p156check if positioning spring installation is qualified"
+  },
+  {
+    "question": "What is step 6 of connector cm10 assembly?",
+    "answer": "high-pressure blowing"
+  },
+  {
+    "question": "What is step 1 of connector cm11 assembly?",
+    "answer": "laser marking"
+  },
+  {
+    "question": "What is step 2 of connector cm11 assembly?",
+    "answer": "install positioning spring ,8positioning spring p163claw facing upper full install into insulation plate p191 114 hole inner ."
+  },
+  {
+    "question": "What is step 3 of connector cm11 assembly?",
+    "answer": "check ,positioning springs must be 100% inspected for correct installation"
+  },
+  {
+    "question": "What is step 4 of connector cm11 assembly?",
+    "answer": "snap-fit ,insulator p191snap-fit to insulation plate p182 upper"
+  },
+  {
+    "question": "What is step 5 of connector cm11 assembly?",
+    "answer": "post-snap check ,using claw check tooling p200check if positioning spring installation is qualified"
+  },
+  {
+    "question": "What is step 6 of connector cm11 assembly?",
+    "answer": "high-pressure blowing"
+  },
+  {
+    "question": "What is step 1 of connector cm13 assembly?",
+    "answer": "laser marking"
+  },
+  {
+    "question": "What is step 2 of connector cm13 assembly?",
+    "answer": "install positioning spring ,threaded pin p143 install into insulation plate p197corresponding 1~12 hole inner"
+  },
+  {
+    "question": "What is step 3 of connector cm13 assembly?",
+    "answer": "snap-fit ,insulator p197snap-fit to insulation plate p144 upper"
+  },
+  {
+    "question": "What is step 4 of connector cm13 assembly?",
+    "answer": "install fastener ,stainless steel cross recessed pan head screw p213 (2,spec M2*16) install to previous step assembly middle , then assembly stainless steel type I hexagon nut ."
+  },
+  {
+    "question": "What is step 5 of connector cm13 assembly?",
+    "answer": "high-pressure blowing"
+  },
+  {
+    "question": "What is step 1 of connector cm14 assembly?",
+    "answer": "laser marking"
+  },
+  {
+    "question": "What is step 2 of connector cm14 assembly?",
+    "answer": "immerse in electronic oil"
+  },
+  {
+    "question": "What is step 3 of connector cm14 assembly?",
+    "answer": "install socket part ,φ10threaded open socket part p135 (12) full install into insulation plate p198 hole middle ."
+  },
+  {
+    "question": "What is step 4 of connector cm14 assembly?",
+    "answer": "snap-fit ,insulation plate p145snap-fit to insulator p198 upper ,"
+  },
+  {
+    "question": "What is step 5 of connector cm14 assembly?",
+    "answer": "install fastener ,using electric screwdriver stainless steel cross recessed pan head screw p213 (2,M2×16) install to previous step assembly middle , then assembly stainless steel type I hexagon nut ."
+  },
+  {
+    "question": "What is step 6 of connector cm14 assembly?",
+    "answer": "install guide pin,using positioning plate p165 and wrench p1622 guide pinp206 install into previous step assembly inner"
+  },
+  {
+    "question": "What is step 7 of connector cm14 assembly?",
+    "answer": "high-pressure blowing"
+  },
+  {
+    "question": "What is step 8 of connector cm14 assembly?",
+    "answer": "withstand voltage test"
+  },
+  {
+    "question": "What is step 1 of connector cm15 assembly?",
+    "answer": "laser marking"
+  },
+  {
+    "question": "What is step 2 of connector cm15 assembly?",
+    "answer": "install positioning claw ,3positioning claw p168install to pickup rod p139 upper ,again install into plug insulator p76 inner ."
+  },
+  {
+    "question": "What is step 3 of connector cm15 assembly?",
+    "answer": "CCD inspection,using CCD inspection device inspect positioning claw assembly is in place"
+  },
+  {
+    "question": "What is step 4 of connector cm15 assembly?",
+    "answer": "install plug TPA insulator ,plug TPA insulator p189 install into plug insulator housing p76 middle"
+  },
+  {
+    "question": "What is step 5 of connector cm15 assembly?",
+    "answer": "high-pressure blowing"
+  },
+  {
+    "question": "What is step 1 of connector cm16 assembly?",
+    "answer": "1: break off ：clamp break off ,signal contact from carrier tape upper break ."
+  },
+  {
+    "question": "What is step 2 of connector cm16 assembly?",
+    "answer": "2: pre-install ：signal contact install into insulator 1,2 hole inner ."
+  },
+  {
+    "question": "What is step 3 of connector cm16 assembly?",
+    "answer": "3: press-fit ：using press-fit fixture and hand press contact press into insulator middle ."
+  },
+  {
+    "question": "What is step 4 of connector cm16 assembly?",
+    "answer": "4: install contact ：AC contact 1 install into insulator 3 hole inner ."
+  },
+  {
+    "question": "What is step 5 of connector cm16 assembly?",
+    "answer": "5: press-fit ： using press-fit tooling and hand press AC contact 1 press-fit into insulator inner ."
+  },
+  {
+    "question": "What is step 6 of connector cm16 assembly?",
+    "answer": "6: install contact ：AC contact 2 install into insulator 4 hole."
+  },
+  {
+    "question": "What is step 7 of connector cm16 assembly?",
+    "answer": "7: press-fit ：AC contact 2 press-fit into insulator middle ,action should be gentle ."
+  },
+  {
+    "question": "What is step 8 of connector cm16 assembly?",
+    "answer": "8: install contact ：AC contact 1-1 install into insulator 5 hole."
+  },
+  {
+    "question": "What is step 9 of connector cm16 assembly?",
+    "answer": "9: press-fit ：AC contact 1-1 press-fit into insulator middle ."
+  },
+  {
+    "question": "What is step 10 of connector cm16 assembly?",
+    "answer": "10: install contact ：AC contact 2-1 install into insulator 6 hole."
+  },
+  {
+    "question": "What is step 11 of connector cm16 assembly?",
+    "answer": "11: press-fit ：AC contact 2-1 press-fit into insulator middle ."
+  },
+  {
+    "question": "What is step 12 of connector cm16 assembly?",
+    "answer": "12: install contact ：DC contact 2 install into insulator 7 hole."
+  },
+  {
+    "question": "What is step 13 of connector cm16 assembly?",
+    "answer": "13: install contact ：DC contact 1 install into insulator 8 hole."
+  },
+  {
+    "question": "What is step 14 of connector cm16 assembly?",
+    "answer": "14: install contact ：DC wide contact 2 install into insulator 9 hole."
+  },
+  {
+    "question": "What is step 15 of connector cm16 assembly?",
+    "answer": "15: install contact ：DC wide contact 1 install into insulator 10 hole."
+  },
+  {
+    "question": "What is step 16 of connector cm16 assembly?",
+    "answer": "16: install insulation plate ：insulation plate install to previous step assembly upper ."
+  },
+  {
+    "question": "What is step 17 of connector cm16 assembly?",
+    "answer": "17: press-fit insulation plate ：using rubber hammer insulation plate press-fit to flush with the insulator end face ."
+  },
+  {
+    "question": "What is step 18 of connector cm16 assembly?",
+    "answer": "18: solder ：tin each stripped wire one by one ,temperature is 420~450℃,after soldering, sort and label wires properly ."
+  },
+  {
+    "question": "What is step 19 of connector cm16 assembly?",
+    "answer": "19: install contact part ：black socket part and white socket part assembly at insulator corresponding hole."
+  },
+  {
+    "question": "What is step 20 of connector cm16 assembly?",
+    "answer": "20: install contact part ：repeat operation 95,assembly black white socket part ."
+  },
+  {
+    "question": "What is step 21 of connector cm16 assembly?",
+    "answer": "21: solder ：using soldering iron and solder wire solder ."
+  },
+  {
+    "question": "What is step 22 of connector cm16 assembly?",
+    "answer": "22: press-fit ：insulation block assembly to insulator ."
+  },
+  {
+    "question": "What is step 23 of connector cm16 assembly?",
+    "answer": "23: install socket insulator ：install pin insulator terminal 1 into black pin part ,install terminal 2 into white pin part ."
+  },
+  {
+    "question": "What is step 24 of connector cm16 assembly?",
+    "answer": "24: install socket insulator ：install socket insulator terminal 1 into black socket part ,install terminal 2 into white socket part ."
+  },
+  {
+    "question": "What is step 25 of connector cm16 assembly?",
+    "answer": "25: withstand voltage test."
+  },
+  {
+    "question": "What is step 26 of connector cm16 assembly?",
+    "answer": "26: continuity test ：using continuity tester signal pins 100% test ."
+  },
+  {
+    "question": "What is step 27 of connector cm16 assembly?",
+    "answer": "27: terminal test：pin/socket insulator perform 20°~30° angle tilt test ."
+  },
+  {
+    "question": "What is step 28 of connector cm16 assembly?",
+    "answer": "28: high-pressure blowing."
+  },
+  {
+    "question": "What is step 1 of connector cm17 assembly?",
+    "answer": "1: laser marking."
+  },
+  {
+    "question": "What is step 2 of connector cm17 assembly?",
+    "answer": "2: thread inspection：using M6 go/no-go gauge product screw holeperform screw-in and screw-out operation ."
+  },
+  {
+    "question": "What is step 3 of connector cm17 assembly?",
+    "answer": "3: terminal inspect ：check if the pin component barb has come out of the pin insulator ."
+  },
+  {
+    "question": "What is step 4 of connector cm17 assembly?",
+    "answer": "4: continuity withstand voltage test：after mating the terminals place the product on the withstand voltage continuity tooling ,toggle the lever to mate the product for testing ."
+  },
+  {
+    "question": "What is step 5 of connector cm17 assembly?",
+    "answer": "5: CCD inspection：using DP series automatic inspection equipment inspect ."
+  },
+  {
+    "question": "What is step 6 of connector cm17 assembly?",
+    "answer": "6: high-pressure blowing."
+  },
+  {
+    "question": "What is step 1 of connector cm18 assembly?",
+    "answer": "1: laser marking."
+  },
+  {
+    "question": "What is step 2 of connector cm18 assembly?",
+    "answer": "2: inspection ： using 0.5mmthickness feeler gauge for resistor cylinder part and small board between distance (requirement distance 0.5mm to 1mm) perform inspection ; using 1.6mmthickness feeler gauge for resistor cylinder part and small board between distance (requirement distance 0.5mm to 1.5mm) perform inspection ."
+  },
+  {
+    "question": "What is step 3 of connector cm18 assembly?",
+    "answer": "3: install nut：using pneumatic press perform press-fit ."
+  },
+  {
+    "question": "What is step 4 of connector cm18 assembly?",
+    "answer": "4: install nut：two M5square nutperform press-fit ."
+  },
+  {
+    "question": "What is step 5 of connector cm18 assembly?",
+    "answer": "5: pre-install ：contact install into insulator corresponding hole inner ."
+  },
+  {
+    "question": "What is step 6 of connector cm18 assembly?",
+    "answer": "6: press-fit ：using hand press and assembly tooling pin press-fit to insulator ."
+  },
+  {
+    "question": "What is step 7 of connector cm18 assembly?",
+    "answer": "7: pre-install ：contact install into insulator corresponding hole inner ."
+  },
+  {
+    "question": "What is step 8 of connector cm18 assembly?",
+    "answer": "8: press-fit ：using hand press and assembly tooling pin press-fit to insulator ."
+  },
+  {
+    "question": "What is step 9 of connector cm18 assembly?",
+    "answer": "9: inspect ：inspect screwis can smoothly tighten to bottom ."
+  },
+  {
+    "question": "What is step 10 of connector cm18 assembly?",
+    "answer": "10: install plug block ：two plug block install into insulator corresponding hole inner , install into using tooling p81auxiliary press ."
+  },
+  {
+    "question": "What is step 11 of connector cm18 assembly?",
+    "answer": "11: pre-install ：as shown PE contact install into insulator corresponding hole inner ."
+  },
+  {
+    "question": "What is step 12 of connector cm18 assembly?",
+    "answer": "12: press-fit ：using hand press and p207contact press-fit tooling pin press-fit to insulator ."
+  },
+  {
+    "question": "What is step 13 of connector cm18 assembly?",
+    "answer": "13: pre-install ：two AC short contact install into insulator corresponding hole inner ."
+  },
+  {
+    "question": "What is step 14 of connector cm18 assembly?",
+    "answer": "14: press-fit ：using hand press and install pin tool pin press-fit to insulator ."
+  },
+  {
+    "question": "What is step 15 of connector cm18 assembly?",
+    "answer": "15: pre-install ：two AC long contact install into insulator corresponding hole inner ."
+  },
+  {
+    "question": "What is step 16 of connector cm18 assembly?",
+    "answer": "16: press-fit ：using hand press and assembly tooling AC long contact press-fit to insulator ."
+  },
+  {
+    "question": "What is step 17 of connector cm18 assembly?",
+    "answer": "17: pre-install ：pre-install properly signal contact and pre-install tooling whole place into corresponding hole inner ,requirement signal contact direction state consistent ,assembly position , direction , qty correct ."
+  },
+  {
+    "question": "What is step 18 of connector cm18 assembly?",
+    "answer": "18: press-fit ：hand press and p209signal contact assembly fixture pin press-fit to insulator ."
+  },
+  {
+    "question": "What is step 19 of connector cm18 assembly?",
+    "answer": "19: assemble ： single platesolder part and assembly complete rear semi-finished insulator assemble to together , then using hand press perform press-fit ."
+  },
+  {
+    "question": "What is step 20 of connector cm18 assembly?",
+    "answer": "20: continuity test ： using continuity tester 100% continuity test the product ."
+  },
+  {
+    "question": "What is step 21 of connector cm18 assembly?",
+    "answer": "21: GAP value test：place the previous step qualified product into the CCD 100%perform GAP value test ."
+  },
+  {
+    "question": "What is step 22 of connector cm18 assembly?",
+    "answer": "22: high-pressure blowing."
+  },
+  {
+    "question": "What is step 1 of connector cm19 assembly?",
+    "answer": "1: 05carrier tape break off ：carrier tape upper sheet-type part p39break off lower ."
+  },
+  {
+    "question": "What is step 2 of connector cm19 assembly?",
+    "answer": "2: 10install contact ：contact install to hole1 inner ."
+  },
+  {
+    "question": "What is step 3 of connector cm19 assembly?",
+    "answer": "3: 15press-fit ：using hand press and press head pin press-fit in place ."
+  },
+  {
+    "question": "What is step 4 of connector cm19 assembly?",
+    "answer": "4: 20install contact ：relatively short DC contact install to hole2 inner ."
+  },
+  {
+    "question": "What is step 5 of connector cm19 assembly?",
+    "answer": "5: 25install contact ：relatively long DC contact 2install to hole3 inner ."
+  },
+  {
+    "question": "What is step 6 of connector cm19 assembly?",
+    "answer": "6: 30install contact ：relatively short DC narrow contact 1install to hole4 inner ."
+  },
+  {
+    "question": "What is step 7 of connector cm19 assembly?",
+    "answer": "7: 35install contact ：relatively long DC narrow contact 2install to hole5 inner ."
+  },
+  {
+    "question": "What is step 8 of connector cm19 assembly?",
+    "answer": "8: 40install insulation plate ：2rectangular insulation plate install into corresponding hole6,7."
+  },
+  {
+    "question": "What is step 9 of connector cm19 assembly?",
+    "answer": "9: 45press-fit ： using p211insulation plate press-fit tooling insulation plate press-fit in place ."
+  },
+  {
+    "question": "What is step 10 of connector cm19 assembly?",
+    "answer": "10: 50install contact part ：place the insulator into tooling p138 inner ,black socket part p9assembly at insulator 26 hole,white socket part p10assembly at insulator 25 hole."
+  },
+  {
+    "question": "What is step 11 of connector cm19 assembly?",
+    "answer": "11: 55install contact part ：place the insulator into tooling p138 inner ,black pin part p24assembly at insulator 28 hole,white pin part p25assembly at insulator 27 hole."
+  },
+  {
+    "question": "What is step 12 of connector cm19 assembly?",
+    "answer": "12: 60press-fit ：using the previous step assembly place horizontally to tooling p133 upper perform press-fit ."
+  },
+  {
+    "question": "What is step 13 of connector cm19 assembly?",
+    "answer": "13: 65apply heat shrink tube ：place the insulator component into tooling p138 inner ,2Φ2.5heat shrink tube (L=10(0,+2)mm) sequentially thread into pin part head ."
+  },
+  {
+    "question": "What is step 14 of connector cm19 assembly?",
+    "answer": "14: 70apply heat shrink tube ：place the insulator component into tooling p138 inner ,2Φ2.5heat shrink tube (L=10(0,+2)mm) tilt right 20°-30° and smooth to the bottom of cross slot ,flush with the insulator end face ."
+  },
+  {
+    "question": "What is step 15 of connector cm19 assembly?",
+    "answer": "15: 75twist wire ：rotate the white pin component barb 180° ."
+  },
+  {
+    "question": "What is step 16 of connector cm19 assembly?",
+    "answer": "16: 80install pin insulator ：install pin insulator terminal 1 into black pin part ,install terminal 2 into white pin part ."
+  },
+  {
+    "question": "What is step 17 of connector cm19 assembly?",
+    "answer": "17: 85install pin insulator ：same as upper ,confirm wiring relationship and firmness ."
+  },
+  {
+    "question": "What is step 18 of connector cm19 assembly?",
+    "answer": "18: 90heat shrink ：preheat equipment for 10 minutes ,upper and lower heating rod temperature 290±15℃."
+  },
+  {
+    "question": "What is step 19 of connector cm19 assembly?",
+    "answer": "19: 95continuity test ：100% use p22continuity test fixture p80test signal pin continuity ."
+  },
+  {
+    "question": "What is step 20 of connector cm19 assembly?",
+    "answer": "20: 100withstand voltage test."
+  },
+  {
+    "question": "What is step 21 of connector cm19 assembly?",
+    "answer": "21: 105terminal test：push wire forward, press down, then gently pull ."
+  },
+  {
+    "question": "What is step 22 of connector cm19 assembly?",
+    "answer": "22: 110dimension test：place the product on the test fixture for testing ."
+  },
+  {
+    "question": "What is step 23 of connector cm19 assembly?",
+    "answer": "23: 115high-pressure blowing."
+  }
+]

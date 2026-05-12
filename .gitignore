@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs & data
+logs/*.json
+*.log
+*.memories.json
+
+# RAG storage (auto-generated)
+dickens*/
+dickens_valve/
+rag_storage/
+inputs/
+
+# Line balancing cache
+*.balance_cache.json

@@ -1,0 +1,290 @@
+[
+  {
+    "question": "In step 1 operation 05 install socket part of connector cm1, which part is the reference part?"
+  },
+  {
+    "question": "In step 1 operation 05 install socket part of connector cm1, which part is the assembly part?"
+  },
+  {
+    "question": "In step 2 operation 10 install socket part of connector cm1, which part is the reference part?"
+  },
+  {
+    "question": "In step 2 operation 10 install socket part of connector cm1, which part is the assembly part?"
+  },
+  {
+    "question": "In step 3 operation 15 install insulator of connector cm1, which part is the reference part?"
+  },
+  {
+    "question": "In step 3 operation 15 install insulator of connector cm1, which part is the assembly part?"
+  },
+  {
+    "question": "In step 4 operation 20 install wire pressing frame of connector cm1, which part is the reference part?"
+  },
+  {
+    "question": "In step 4 operation 20 install wire pressing frame of connector cm1, which part is the assembly part?"
+  },
+  {
+    "question": "In step 5 operation 25 install locking plate of connector cm1, which part is the reference part?"
+  },
+  {
+    "question": "In step 5 operation 25 install locking plate of connector cm1, which part is the assembly part?"
+  },
+  {
+    "question": "In step 6 operation 30 install button of connector cm1, which part is the reference part?"
+  },
+  {
+    "question": "In step 6 operation 30 install button of connector cm1, which part is the assembly part?"
+  },
+  {
+    "question": "In step 7 operation 35 install insulation plate of connector cm1, which part is the reference part?"
+  },
+  {
+    "question": "In step 7 operation 35 install insulation plate of connector cm1, which part is the assembly part?"
+  },
+  {
+    "question": "In step 8 operation 40 install screw of connector cm1, which part is the reference part?"
+  },
+  {
+    "question": "In step 8 operation 40 install screw of connector cm1, which part is the assembly part?"
+  },
+  {
+    "question": "In step 1 operation 05 install contact of connector cm2, which part is the reference part?"
+  },
+  {
+    "question": "In step 1 operation 05 install contact of connector cm2, which part is the assembly part?"
+  },
+  {
+    "question": "In step 2 operation 10 install contact of connector cm2, which part is the reference part?"
+  },
+  {
+    "question": "In step 2 operation 10 install contact of connector cm2, which part is the assembly part?"
+  },
+  {
+    "question": "In step 3 operation 15 press-fit of connector cm2, which part is the reference part?"
+  },
+  {
+    "question": "In step 3 operation 15 press-fit of connector cm2, which part is the assembly part?"
+  },
+  {
+    "question": "In step 1 operation 05 install contact of connector cm3, which part is the reference part?"
+  },
+  {
+    "question": "In step 1 operation 05 install contact of connector cm3, which part is the assembly part?"
+  },
+  {
+    "question": "In step 2 operation 10 install contact of connector cm3, which part is the reference part?"
+  },
+  {
+    "question": "In step 2 operation 10 install contact of connector cm3, which part is the assembly part?"
+  },
+  {
+    "question": "In step 3 operation 15 press-fit of connector cm3, which part is the reference part?"
+  },
+  {
+    "question": "In step 3 operation 15 press-fit of connector cm3, which part is the assembly part?"
+  },
+  {
+    "question": "In step 2 operation 10 install contact of connector cm4, which part is the reference part?"
+  },
+  {
+    "question": "In step 2 operation 10 install contact of connector cm4, which part is the assembly part?"
+  },
+  {
+    "question": "In step 3 operation 15 install contact of connector cm4, which part is the reference part?"
+  },
+  {
+    "question": "In step 3 operation 15 install contact of connector cm4, which part is the assembly part?"
+  },
+  {
+    "question": "In step 4 operation 25 install pin part of connector cm4, which part is the reference part?"
+  },
+  {
+    "question": "In step 4 operation 25 install pin part of connector cm4, which part is the assembly part?"
+  },
+  {
+    "question": "In step 5 operation 30 install positioning plate of connector cm4, which part is the reference part?"
+  },
+  {
+    "question": "In step 5 operation 30 install positioning plate of connector cm4, which part is the assembly part?"
+  },
+  {
+    "question": "In step 8 operation 45 template check of connector cm4, which part is the assembly part?"
+  },
+  {
+    "question": "In step 1 operation 05 install socket part of connector cm5, which is the reference part?"
+  },
+  {
+    "question": "In step 1 operation 05 install socket part of connector cm5, which is the assembly part?"
+  },
+  {
+    "question": "In step 2 operation 10 install socket part of connector cm5, which is the reference part?"
+  },
+  {
+    "question": "In step 2 operation 10 install socket part of connector cm5, which is the assembly part?"
+  },
+  {
+    "question": "In step 3 operation 15 press-fit contact of connector cm5, which is the reference part?"
+  },
+  {
+    "question": "In step 3 operation 15 press-fit contact of connector cm5, which is the assembly part?"
+  },
+  {
+    "question": "In step 2 operation 10 install positioning spring of connector cm6, which is the reference part?"
+  },
+  {
+    "question": "In step 2 operation 10 install positioning spring of connector cm6, which is the assembly part?"
+  },
+  {
+    "question": "In step 3 operation 15 install positioning spring of connector cm6, which is the reference part?"
+  },
+  {
+    "question": "In step 3 operation 15 install positioning spring of connector cm6, which is the assembly part?"
+  },
+  {
+    "question": "In step 5 operation 25 snap-fit of connector cm6, which is the reference part?"
+  },
+  {
+    "question": "In step 5 operation 25 snap-fit of connector cm6, which is the assembly part?"
+  },
+  {
+    "question": "In step 5 operation 25 snap-fit of connector cm6, which is the product?"
+  },
+  {
+    "question": "In step 2 operation 10 install positioning spring of connector cm7, which is the reference part?"
+  },
+  {
+    "question": "In step 2 operation 10 install positioning spring of connector cm7, which is the assembly part?"
+  },
+  {
+    "question": "In step 3 operation 15 pre-snap claw check of connector cm7, which is the assembly part?"
+  },
+  {
+    "question": "In step 4 operation 20 snap-fit of connector cm7, which is the reference part?"
+  },
+  {
+    "question": "In step 4 operation 20 snap-fit of connector cm7, which is the assembly part?"
+  },
+  {
+    "question": "In step 2 operation 10 install socket part of connector cm8, which is the reference part?"
+  },
+  {
+    "question": "In step 2 operation 10 install socket part of connector cm8, which is the assembly part?"
+  },
+  {
+    "question": "In step 3 operation 15 install socket part of connector cm8, which is the reference part?"
+  },
+  {
+    "question": "In step 3 operation 15 install socket part of connector cm8, which is the assembly part?"
+  },
+  {
+    "question": "In step 4 operation 20 press-fit of connector cm8, which is the reference part?"
+  },
+  {
+    "question": "In step 2 operation 10 install socket part of connector cm9, which is the reference part?"
+  },
+  {
+    "question": "In step 2 operation 10 install socket part of connector cm9, which is the assembly part?"
+  },
+  {
+    "question": "In step 3 operation 15 install socket part of connector cm9, which is the reference part?"
+  },
+  {
+    "question": "In step 3 operation 15 install socket part of connector cm9, which is the assembly part?"
+  },
+  {
+    "question": "In step 4 operation 20 press-fit of connector cm9, which is the reference part?"
+  },
+  {
+    "question": "In step 4 operation 20 press-fit of connector cm9, which is the assembly part?"
+  },
+  {
+    "question": "In step 2 operation 10 install positioning spring of connector cm11, which is the reference part?"
+  },
+  {
+    "question": "In step 2 operation 10 install positioning spring of connector cm11, which is the assembly part?"
+  },
+  {
+    "question": "In step 4 operation 20 snap-fit of connector cm11, which is the reference part?"
+  },
+  {
+    "question": "In step 4 operation 20 snap-fit of connector cm11, which is the assembly part?"
+  },
+  {
+    "question": "In step 5 operation 25 post-snap claw check of connector cm11, which is the tooling?"
+  },
+  {
+    "question": "In step 5 operation 25 post-snap claw check of connector cm11, which is the product?"
+  },
+  {
+    "question": "In step 2 operation 10 install positioning spring of connector cm12, which is the reference part?"
+  },
+  {
+    "question": "In step 2 operation 10 install positioning spring of connector cm12, which is the assembly part?"
+  },
+  {
+    "question": "In step 4 operation 20 snap-fit of connector cm12, which is the reference part?"
+  },
+  {
+    "question": "In step 4 operation 20 snap-fit of connector cm12, which is the assembly part?"
+  },
+  {
+    "question": "In step 5 operation 25 post-snap check of connector cm12, which is the tooling?"
+  },
+  {
+    "question": "In step 2 operation 10 install positioning spring of connector cm13, which is the reference part?"
+  },
+  {
+    "question": "In step 2 operation 10 install positioning spring of connector cm13, which is the assembly part?"
+  },
+  {
+    "question": "In step 3 operation 15 snap-fit of connector cm13, which is the reference part?"
+  },
+  {
+    "question": "In step 3 operation 15 snap-fit of connector cm13, which is the assembly part?"
+  },
+  {
+    "question": "In step 4 operation 20 install fastener of connector cm13, which is the reference part?"
+  },
+  {
+    "question": "In step 4 operation 20 install fastener of connector cm13, which is the assembly part?"
+  },
+  {
+    "question": "In step 3 operation 15 install socket part of connector cm14, which is the reference part?"
+  },
+  {
+    "question": "In step 3 operation 15 install socket part of connector cm14, which is the assembly part?"
+  },
+  {
+    "question": "In step 4 operation 20 snap-fit of connector cm14, which is the reference part?"
+  },
+  {
+    "question": "In step 4 operation 20 snap-fit of connector cm14, which is the assembly part?"
+  },
+  {
+    "question": "In step 5 operation 25 install fastener of connector cm14, which is the reference part?"
+  },
+  {
+    "question": "In step 5 operation 25 install fastener of connector cm14, which is the assembly part?"
+  },
+  {
+    "question": "In step 6 operation 30 install guide pin of connector cm14, which is the reference part?"
+  },
+  {
+    "question": "In step 6 operation 30 install guide pin of connector cm14, which is the assembly part?"
+  },
+  {
+    "question": "In step 6 operation 30 install guide pin of connector cm14, which is the tooling?"
+  },
+  {
+    "question": "In step 2 operation 10 install positioning claw of connector cm15, which is the reference part?"
+  },
+  {
+    "question": "In step 2 operation 10 install positioning claw of connector cm15, which is the assembly part?"
+  },
+  {
+    "question": "In step 4 operation 20 install plug TPA insulator of connector cm15, which is the reference part?"
+  },
+  {
+    "question": "In step 4 operation 20 install plug TPA insulator of connector cm15, which is the assembly part?"
+  }
+]

@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>ChatPlanner</title>
+ <link rel="icon" href="/static/Logo.png" type="image/x-icon">
+ <script src="https://unpkg.com/cytoscape@3.21.1/dist/cytoscape.min.js"></script>
+ <style>
+ * { box-sizing: border-box; }
+ body {
+ margin: 0;
+ font-family: "Segoe UI", sans-serif;
+ display: flex;
+ height: 100vh;
+ }
+ .qa-section {
+ width: 40%;
+ display: flex;
+ flex-direction: column;
+ border-right: 1px solid #ddd;
+ }
+ .chat-box {
+ flex: 1;
+ padding: 20px;
+ background-color: #f7f7f7;
+ overflow-y: auto;
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+ font-family: Arial, sans-serif;
+ font-size: 14px;
+ }
+ .message {
+ max-width: 75%;
+ padding: 12px 16px;
+ border-radius: 16px;
+ font-size: 15px;
+ line-height: 1.5;
+ word-wrap: break-word;
+ white-space: pre-wrap;
+ font-family: Arial, sans-serif;
+ font-size: 14px;
+ }
+ .message.user {
+ align-self: flex-end;
+ background-color: #dcf8c6;
+ border-bottom-right-radius: 0;
+ }
+ .message.bot {
+ align-self: flex-start;
+ background-color: #e5e5ea;
+ border-bottom-left-radius: 0;
+ }
+ .input-area {
+ display: flex;
+ padding: 10px 20px;
+ border-top: 1px solid #ddd;
+ background-color: #fff;
+ }
+ input[type="text"] {
+ flex: 1;
+ padding: 10px;
+ font-size: 16px;
+ border: 1px solid #ccc;
+ border-radius: 8px;
+ }
+ .file-label {
+ background-color: #eee;
+ border: 1px solid #ccc;
+ border-radius: 50%;
+ width: 32px;
+ height: 32px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 20px;
+ cursor: pointer;
+ margin: 0 10px; /* Add left/right spacing */
+ }
+ #fileInput {
+ display: none;
+ }
+ .file-preview {
+ display: none;
+ }
+ .chat-file {
+ display: inline-flex;
+ align-items: center;
+ font-size: 15px;
+ margin-top: 4px;
+ gap: 5px;
+ }
+ .chat-file img {
+ width: 18px;
+ height: 18px;
+ }
+ button {
+ padding: 10px 16px;
+ font-size: 16px;
+ border: none;
+ border-radius: 8px;
+ background-color: #4CAF50;
+ color: white;
+ cursor: pointer;
+ }
+ .history-section {
+ width: 250px;
+ background-color: #f4f4f4;
+ border-right: 1px solid #ccc;
+ padding: 10px;
+ display: flex;
+ flex-direction: column;
+ }
+ .logo {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-weight: bold;
+ font-size: 20px;
+ padding: 10px 0;
+ color: #2c3e50;
+ border-bottom: 1px solid #ccc;
+ gap: 10px;
+ }
+
+ #historyList {
+ list-style: none;
+ padding: 0;
+ margin-top: 10px;
+ overflow-y: auto;
+ flex: 1;
+ }
+
+ #historyList li {
+ padding: 8px;
+ cursor: pointer;
+ border-radius: 6px;
+ }
+
+ #historyList li:hover {
+ background-color: #ddd;
+ }
+
+ .chat-header {
+ padding: 12px;
+ font-weight: bold;
+ font-size: 16px;
+ background-color: #eaeaea;
+ border-bottom: 1px solid #ccc;
+ }
+
+ .graph-section {
+ width: 60%;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ grid-template-rows: 1fr 1fr;
+ gap: 10px;
+ padding: 10px;
+ }
+ .panel {
+ border: 1px solid #ccc;
+ border-radius: 8px;
+ display: flex;
+ flex-direction: column;
+ background-color: #fafafa;
+ }
+ .panel h4 {
+ margin: 0;
+ padding: 10px;
+ background-color: #f0f0f0;
+ border-bottom: 1px solid #ddd;
+ font-size: 15px;
+ line-height: 1.2;
+ position: sticky;
+ top: 0;
+ z-index: 1;
+ height: 40px;
+ display: flex;
+ align-items: center;
+ }
+ .panel > div, .panel > table {
+ flex: 1;
+ overflow-y: auto;
+ padding: 10px;
+ }
+ #assembly-code {
+ white-space: pre-wrap;
+ font-family: monospace;
+ }
+ .highlight-instruction {
+ color: #d63384;
+ font-weight: bold;
+ }
+ .copy-btn {
+ background: none;
+ border: none;
+ cursor: pointer;
+ font-size: 16px;
+ color: #666;
+ margin-left: auto; /* Auto-push to the far right */
+ display: inline-flex;
+ align-items: center;
+ justify-content: center;
+ padding: 4px;
+ }
+ #product-info {
+ border-collapse: collapse;
+ width: 100%;
+ }
+ #product-info td {
+ border: 1px solid #ccc;
+ padding: 8px;
+ font-size: 14px;
+ }
+ </style>
+</head>
+<body>
+
+ <!-- New: History sidebar -->
+ <div class="history-section">
+ <div class="logo">
+ <img src="/static/Logo.png" style="height: 40px;">
+ <span>ChatPlanner</span>
+ </div>
+ <ul id="historyList"></ul>
+ </div>
+
+ <!-- Left: Chat Box -->
+ <div class="qa-section">
+ <div class="chat-header" id="chatTitle">New Chat</div>
+ <div class="chat-box" id="chatBox">
+ <div class="message bot">Welcome to the ChatPlanner!</div>
+ </div>
+
+ <div id="filePreview" class="file-preview" style="padding-left: 12px; font-size: 15px;"></div>
+ <div class="input-area">
+ <input id="questionInput" type="text" placeholder="Please enter your question..."/>
+ <label for="fileInput" class="file-label">＋</label>
+ <input id="fileInput" type="file" accept=".pdf,.doc,.docx" onchange="showFilePreview()" />
+ <button onclick="askQuestion()">Send</button>
+ </div>
+ </div>
+
+ <!-- Right: Graph Display -->
+ <div class="graph-section">
+ <div class="panel">
+ <h4>Knowledge Graph</h4>
+ <div id="graph-container" style="height: 100%;"></div>
+ </div>
+ <div class="panel">
+ <h4>Product Information</h4>
+ <table id="product-info"></table>
+ </div>
+ <div class="panel">
+ <h4>Results of Assembly Line Balancing Problem</h4>
+ <div id="line-balance"></div>
+ </div>
+ <div class="panel">
+ <h4>Scene graph </h4>
+ <div id="assembly-code"></div>
+ </div>
+ </div>
+ <script>
+ async function loadSceneGraph() {
+ try {
+ const response = await fetch("/scene_graph"); // Backend generates pyvis graph
+ const html = await response.text();
+ 
+ const container = document.getElementById("assembly-code");
+ container.innerHTML = ""; // Clear old content
+ 
+ const iframe = document.createElement("iframe");
+ iframe.style.width = "100%";
+ iframe.style.height = "100%";
+ iframe.style.border = "none";
+ iframe.srcdoc = html; // Inject pyvis HTML into iframe
+ 
+ container.appendChild(iframe);
+ } catch (error) {
+ console.error("Graph load failed:", error);
+ document.getElementById("assembly-code").innerText = "Graph load failed: " + error;
+ }
+ }
+ 
+ // Auto-load graph after page loads
+ window.addEventListener("DOMContentLoaded", loadSceneGraph);
+ </script>
+ 
+ <script>
+ // Load the knowledge graph HTML generated by Flask backend
+ fetch("/graph")
+ .then(res => res.text())
+ .then(html => {
+ const container = document.getElementById("graph-container");
+ container.innerHTML = "";
+ const iframe = document.createElement("iframe");
+ iframe.style.width = "100%";
+ iframe.style.height = "100%";
+ iframe.style.border = "none";
+ iframe.srcdoc = html;
+ container.appendChild(iframe);
+ })
+ .catch(err => {
+ document.getElementById("graph-container").innerText = "Graph load failed: " + err;
+ });
+ </script>
+
+ <script>
+ document.getElementById("submit-btn").addEventListener("click", async () => {
+ const question = document.getElementById("question-input").value;
+ const formData = new FormData();
+ formData.append("question", question);
+
+ const fileInput = document.getElementById("fileInput");
+ if (fileInput && fileInput.files.length > 0) {
+ formData.append("file", fileInput.files[0]);
+ }
+
+ fetch("/query", {
+ method: "POST",
+ body: formData,
+ })
+ .then(res => res.json())
+ .then(data => {
+ console.log("Backend response data:", data); // Debug output
+
+ // Display main answer in chat box
+ document.getElementById("chat-box").innerHTML += renderMessage(data.answer, "bot");
+
+ // Render product-info panel (RAG tool results)
+ if (typeof data.rag_info === "string" && data.rag_info.trim()) {
+ document.getElementById("product-info").innerHTML = formatAsTable(data.rag_info);
+ } else {
+ console.log("rag_info not found or empty:", data.rag_info);
+ }
+
+ // Render linebalance_result panel (line balancing results)
+ if (typeof data.linebalance_result === "string" && data.linebalance_result.trim()) {
+ console.log("linebalance_result content:", data.linebalance_result);
+ document.getElementById("line-balance").innerHTML = formatAsList(data.linebalance_result);
+ console.log("linebalance_result innerHTML:", document.getElementById("line-balance").innerHTML);
+ } else {
+ document.getElementById("line-balance").innerHTML = "<em>No line balance results</em>";
+ }
+ })
+ .catch(error => {
+ console.error("Request failed:", error);
+ });
+ });
+
+ // Render a single message
+ function renderMessage(text, role) {
+ const formattedText = text.replace(/\n/g, "<br/>");
+ return `<div class="message ${role}">${formattedText}</div>`;
+ }
+
+
+ // Format rag_info text as a table
+ function formatAsTable(text) {
+ text = text.replace(/^\[Tool Output\]/i, "").trim();
+ const rows = text.split(/[\n。]+/).filter(line => line.trim() !== "");
+ if (rows.length === 0) return "<tr><td><em>No data</em></td></tr>";
+ return rows.map(line => `<tr><td>${line}</td></tr>`).join("");
+ }
+
+ // Format linebalance_result as a list of divs
+ function formatAsList(text) {
+ return text
+ .split("\n")
+ .filter(line => line.trim())
+ .map(line => `<div>${line}</div>`)
+ .join("");
+ }
+ </script>
+
+
+
+ </body>
+ </html>
+
+ <script>
+ let currentChatId = null;
+
+ window.onload = async () => {
+ await loadChatList();
+ };
+
+ async function askQuestion() {
+ const input = document.getElementById("questionInput");
+ const question = input.value.trim();
+ if (!question) return;
+ 
+ const fileInput = document.getElementById("fileInput");
+ const chatBox = document.getElementById("chatBox");
+ const filePreview = document.getElementById("filePreview");
+
+ // Clear input and preview display
+ input.value = "";
+ filePreview.innerHTML = "";
+ filePreview.style.display = "none";
+
+ // New chat scenario: no chatId
+ if (!currentChatId) {
+ document.getElementById("chatTitle").innerText = "New Chat"; // creating new session
+ }
+
+ // Add user message
+ const userMsg = document.createElement("div");
+ userMsg.className = "message user";
+ userMsg.textContent = question;
+
+ // If file is attached, show icon
+ let file = null;
+ if (fileInput.files.length > 0) {
+ file = fileInput.files[0];
+ const fileType = file.name.endsWith(".pdf") ? "pdf" : "word";
+ const iconUrl = fileType === "pdf" ? "/static/pdf-icon.png" : "/static/word-icon.png";
+
+ userMsg.innerHTML += `<br/><span class='chat-file'>
+ <img src='${iconUrl}' alt='file' />
+ ${file.name}
+ </span>`;
+ }
+
+ chatBox.appendChild(userMsg);
+ chatBox.scrollTop = chatBox.scrollHeight;
+
+ // Send request
+ try {
+ const formData = new FormData();
+ formData.append("question", question);
+ if (file) formData.append("file", file);
+ if (currentChatId) formData.append("chat_id", currentChatId);
+ 
+ const response = await fetch("/query", {
+ method: "POST",
+ body: formData
+ });
+ 
+ const result = await response.json();
+ currentChatId = result.chat_id;
+
+ if (typeof result.linebalance_result === "string" && result.linebalance_result.trim()) {
+ document.getElementById("line-balance").innerHTML = formatAsList(result.linebalance_result);
+ } else {
+ document.getElementById("line-balance").innerHTML = "<em>No line balance results</em>";
+ }
+
+ if (typeof result.rag_info === "string" && result.rag_info.trim()) {
+ document.getElementById("product-info").innerHTML = formatAsTable(result.rag_info);
+ } 
+ else {
+ console.log("️ rag_info not found or empty:", result.rag_info);
+ }
+
+ // Add GPT response
+ const botMsg = document.createElement("div");
+ botMsg.className = "message bot";
+ botMsg.textContent = result.answer || "No answer received.";
+ chatBox.appendChild(botMsg);
+
+ // ✅ new conversation，update chatTitle
+ if (document.getElementById("chatTitle").innerText === "New Chat") {
+ document.getElementById("chatTitle").innerText = question.slice(0, 8);
+ }
+
+ chatBox.scrollTop = chatBox.scrollHeight;
+ await loadChatList();
+ // renderGraph(result.graph);
+
+
+ } catch (error) {
+ console.error("GPT request failed:", error);
+
+ const errorMsg = document.createElement("div");
+ errorMsg.className = "message bot";
+ errorMsg.textContent = "Error communicating with backend.";
+ chatBox.appendChild(errorMsg);
+ }
+ 
+ // Clear file input
+ fileInput.value = "";
+
+ }
+
+ // Load chat history
+ async function loadChatList() {
+ const res = await fetch("/chats");
+ const chats = await res.json();
+ const list = document.getElementById("historyList");
+ list.innerHTML = "";
+
+ // New chat button
+ const newBtn = document.createElement("li");
+ newBtn.style.fontWeight = "bold";
+ newBtn.style.color = "#2c3e50";
+ newBtn.textContent = "+ New Chat";
+ newBtn.style.cursor = "pointer";
+ newBtn.onclick = newChat;
+ list.appendChild(newBtn);
+
+ chats.forEach(chat => {
+ const li = document.createElement("li");
+ li.style.display = "flex";
+ li.style.justifyContent = "space-between";
+ li.style.alignItems = "center";
+
+ const title = document.createElement("span");
+ title.textContent = chat.title;
+ title.style.flex = "1";
+ title.style.cursor = "pointer";
+ title.onclick = () => loadChat(chat.id);
+
+ const del = document.createElement("span");
+ del.textContent = "🗑️";
+ del.style.cursor = "pointer";
+ del.style.marginLeft = "8px";
+ del.onclick = (e) => {
+ e.stopPropagation();
+ deleteChat(chat.id);
+ };
+
+ li.appendChild(title);
+ li.appendChild(del);
+ list.appendChild(li);
+ });
+ }
+
+ // Load chat history content
+ async function loadChat(chatId) {
+ currentChatId = chatId;
+ const res = await fetch(`/chats/${chatId}`);
+ const messages = await res.json();
+
+ const chatBox = document.getElementById("chatBox");
+ chatBox.innerHTML = "";
+
+ messages.forEach(msg => {
+ const div = document.createElement("div");
+ div.className = "message " + (msg.role === "user" ? "user" : "bot");
+ div.textContent = msg.content;
+ chatBox.appendChild(div);
+ });
+
+ // Set chatTitle to first 20 chars of first user message
+ const firstUserMessage = messages.find(msg => msg.role === "user");
+ document.getElementById("chatTitle").innerText = firstUserMessage?.content?.slice(0, 8) || "Chat";
+
+ chatBox.scrollTop = chatBox.scrollHeight;
+ }
+
+ // New chat
+ function newChat() {
+ currentChatId = null;
+ document.getElementById("chatBox").innerHTML = "";
+ document.getElementById("chatTitle").innerText = "New Chat";
+ document.getElementById("questionInput").focus();
+ }
+
+ // Delete chat
+ async function deleteChat(chatId) {
+ if (!confirm("Are you sure to delete this chat?")) return;
+
+ await fetch(`/chats/${chatId}`, { method: "DELETE" });
+
+ // If deleting current chat, clear the window
+ if (chatId === currentChatId) {
+ newChat();
+ document.getElementById("chatTitle").innerText = "New Chat"
+ }
+
+ await loadChatList();
+ }
+ 
+ // Support Enter key to send
+ document.getElementById("questionInput").addEventListener("keydown", function (event) {
+ if (event.key === "Enter") {
+ askQuestion();
+ }
+ });
+
+ function copyAssemblyCode() {
+ const text = document.getElementById("assembly-code").innerText;
+ }
+ function removeFile() {
+ const fileInput = document.getElementById("fileInput");
+ const filePreview = document.getElementById("filePreview");
+ fileInput.value = "";
+ filePreview.innerHTML = "";
+ filePreview.style.display = "none";
+ }
+
+ function showFilePreview() {
+ const fileInput = document.getElementById("fileInput");
+ const filePreview = document.getElementById("filePreview");
+
+ if (fileInput.files.length > 0) {
+ const file = fileInput.files[0];
+ const fileType = file.name.endsWith(".pdf") ? "pdf" : "word";
+ const iconUrl = fileType === "pdf" ? "/static/pdf-icon.png" : "/static/word-icon.png";
+
+ filePreview.innerHTML = `
+ <div class="chat-file" style="
+ display: inline-flex;
+ align-items: center;
+ gap: 10px;
+ font-size: 15px;
+ padding: 8px 12px;
+ border-radius: 8px;
+ background-color: #f0f0f0;
+ border: 1px solid #ccc;
+ max-width: 100%;
+ ">
+ <img src="${iconUrl}" alt="file" style="width: 24px; height: 24px;" />
+ <span style="font-size: 16px; max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
+ ${file.name}
+ </span>
+ <button onclick="removeFile()" style="
+ background: none;
+ border: none;
+ font-size: 18px;
+ cursor: pointer;
+ color: #888;
+ " title="Remove">×</button>
+ </div>
+ `;
+ filePreview.style.display = "block";
+ } else {
+ filePreview.innerHTML = "";
+ filePreview.style.display = "none";
+ }
+ }
+
+ </script>
+
+</body>
+</html>

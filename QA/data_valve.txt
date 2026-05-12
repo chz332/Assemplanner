@@ -1,0 +1,177 @@
+Assembly Process for check valve cn1
+
+1. Install O-ring: install O-ring, O-ring p175 along guide sleeve, push into plug corresponding groove. Tool: O-ring tool. Part: 1 O-ring p175, 1 plug p111.
+2. Install valve core: place valve core into valve housing. Tool: general tool. Part: 1 valve core p113, 1 valve housing p109.
+3. Install spring: take the shaped valve housing and valve core, place spring inside. Tool: general tool. Part: 1 spring p115.
+4. Install plug: install plug into assembly. Tool: general tool. Part: 1 plug p111.
+5. Pre-tighten valve housing: pre-tighten valve housing. Tool: thread tightening tool.
+6. Apply torque: apply torque to product. Tool: thread tightening tool.
+7. Install O-ring: push O-ring p167 into valve housing corresponding groove. Tool: O-ring installation tool. Part: O-ring p167.
+
+Assembly Process for check valve cn2
+
+1. Install O-ring: push O-ring along guide sleeve into plug corresponding groove. Tool: O-ring tool. Part: 1 O-ring p179, 1 plug p110.
+2. Install valve core: place valve core into valve housing. Tool: general tool. Part: 1 valve core p112, 1 valve housing p108.
+3. Install spring: take the shaped valve housing and valve core, place spring inside. Tool: general tool. Part: 1 spring p114.
+4. Install plug: install plug into assembly. Tool: general tool. Part: 1 plug p110.
+5. Pre-tighten valve housing: pre-tighten valve housing. Tool: thread tightening tool.
+6. Apply torque: apply torque to product. Tool: thread tightening tool.
+7. Install O-ring: push O-ring p172 into valve housing corresponding groove. Tool: O-ring installation tool. Part: O-ring p172.
+
+Assembly Process for check valve cn3
+
+1. Install steel ball: place steel ball into valve seat inner hole. Tool: general tool. Part: 1 steel ball p105, 1 valve seat p103.
+2. Install spring: place spring into threaded plug inner hole. Tool: general tool. Part: 1 spring p91, 1 threaded plug p107.
+3. Rotate valve seat: install the previous step assembly entirely into valve seat. Tool: general tool.
+4. Apply torque: apply torque and tighten. Tool: thread tightening tool.
+5. Install O-ring: install O-ring. Tool: O-ring installation tool. Part: O-ring p11.
+
+Assembly Process for check valve cn4
+
+1. Install steel ball: place steel ball into valve seat inner hole. Tool: general tool. Part: 1 steel ball p104, 1 valve seat p102.
+2. Install spring: place spring into threaded plug inner hole. Tool: general tool. Part: 1 spring p90, 1 threaded plug p106.
+3. Install valve seat: install the previous step assembly entirely into valve seat. Tool: general tool. Part: 1 valve seat p102.
+4. Apply torque: apply torque and tighten. Tool: thread tightening tool.
+5. Install O-ring: install O-ring. Tool: O-ring installation tool. Part: O-ring p177.
+
+Assembly Process for check valve cn5
+
+1. Install valve core: insert valve core small diameter end through conical spring small diameter end. Tool: general tool. Part: 1 valve core p118, 1 conical spring p122.
+2. Install valve seat: use valve seat large inner diameter end to push against valve core spherical surface, install entire assembly into threaded plug. Tool: general tool. Part: 1 valve seat p116, 1 threaded plug p120.
+3. Press-fit threaded plug: place valve core on press-fit tooling, press threaded plug into place. Tool: pressing tool.
+4. Install O-ring: install O-ring p178 onto valve seat end face platform. Tool: O-ring installation tool. Part: 1 O-ring p178.
+
+Assembly Process for check valve cn6
+
+1. Install valve core: insert valve core small diameter end through conical spring small diameter end. Tool: general tool. Part: 1 valve core p119, 1 conical spring p123.
+2. Install valve seat: use valve seat large inner diameter end to push against valve core spherical surface, install entire assembly into threaded plug. Tool: general tool. Part: 1 valve seat p117, 1 threaded plug p121.
+3. Install threaded plug: press threaded plug into place. Tool: pressing tool.
+4. Install O-ring: install O-ring p170 onto valve seat end face step. Tool: O-ring installation tool.
+
+Assembly Process for check valve cn7
+
+1. Install O-ring: install O-ring p93 onto valve sleeve large outer diameter end. Tool: O-ring installation tool. Part: 1 O-ring p93.
+2. Install spring: place conical spring large diameter end into valve sleeve inner hole step. Tool: general tool. Part: 1 conical spring p152, 1 valve sleeve p147.
+3. Install valve core: insert valve core small diameter end toward spring. Tool: general tool. Part: 1 valve core p129.
+4. Install valve seat: install main valve seat and pre-press. Tool: pressing tool. Part: 1 valve seat p101.
+5. Install valve sleeve: press valve sleeve into main valve seat. Tool: pressing tool. Part: 1 valve sleeve p147.
+
+Assembly Process for check valve cn8
+
+1. Install O-ring: install O-ring p178 onto valve seat large outer diameter end. Tool: O-ring installation tool. Part: 1 O-ring p178, 1 valve seat p127.
+2. Install conical spring: place conical spring large diameter end into valve seat inner hole step. Tool: general tool. Part: 1 conical spring p122.
+3. Install valve core: place valve core small diameter end toward spring. Tool: general tool. Part: 1 valve core p128.
+4. Install threaded plug: install threaded plug and manually pre-press. Tool: pressing tool. Part: 1 threaded plug p130.
+5. Install valve seat: press valve seat into threaded plug. Tool: pressing tool.
+
+Assembly Process for relief valve cn9
+
+1. Install O-ring: push O-ring p173 along guide sleeve into adjusting screw corresponding groove. Tool: O-ring tool. Part: 1 O-ring p173, 1 adjusting screw p99.
+2. Install O-ring: push O-ring p175 along guide sleeve into valve seat corresponding groove. Tool: O-ring installation tool. Part: 1 O-ring p175, 1 valve seat p135.
+3. Install O-ring: push O-ring p171 along guide sleeve into valve seat corresponding groove. Tool: O-ring installation tool. Part: 1 O-ring p171, 1 subassembly from Process 2.
+4. Install retaining ring: install retaining ring p165 into valve seat O-ring groove. Tool: O-ring installation tool. Part: 1 retaining ring p165, 1 subassembly from Process 3.
+5. Install spring: place spring onto spring seat flat end face. Tool: general tool. Part: 1 spring HT-01-024-B, 1 spring seat p137.
+6. Install valve seat: place valve seat into valve core. Tool: general tool. Part: 1 subassembly from Process 4, 1 valve core p136.
+7. Component assembly: insert subassembly from Process 5 into subassembly from Process 6. Tool: general tool.
+8. Install adjusting screw: screw adjusting screw into seat. Tool: general tool. Part: 1 adjusting screw seat p96, 1 subassembly from Process 1.
+9. Install adjusting screw seat: screw entire adjusting screw assembly into valve seat. Tool: thread tightening tool. Part: subassembly from Process 6.
+10. Install lock nut: install lock nut small diameter end onto adjusting screw. Tool: thread tightening tool. Part: 1 lock nut p97.
+
+Assembly Process for relief valve cn10
+
+1. Install O-ring: push O-ring p176 along guide sleeve into plug corresponding groove. Tool: O-ring installation tool. Part: 1 O-ring p176, 1 plug p138.
+2. Install O-ring: push O-ring p166 along guide sleeve into adjusting screw corresponding groove. Tool: O-ring installation tool. Part: 1 O-ring p166, 1 adjusting screw p145.
+3. Install steel ball: place steel ball dia 2 onto spring seat side hole, press steel ball in. Tool: pressing tool. Part: 1 steel ball p181, 1 spring seat p140.
+4. Install spring: insert spring through valve seat small diameter end from valve core small diameter end. Tool: general tool. Part: 1 spring p142, 1 valve seat p139, 1 valve core p141.
+5. Install spring seat: screw spring seat counterclockwise into valve core with large OD step facing spring. Tool: thread tightening tool. Part: 1 spring seat and subassembly from Process 4.
+6. Install conical spring: insert conical spring small diameter end into spring seat. Tool: general tool. Part: 1 conical spring p143 and subassembly from Process 5.
+7. Install connecting rod: screw connecting rod into valve core, manually pre-tighten. Tool: thread tightening tool. Part: 1 connecting rod p144 and valve core subassembly from Process 4.
+8. Apply torque: apply torque 3-5 N-m to valve core. Tool: thread tightening tool.
+9. Install adjusting pin: fit adjusting pin large OD over connecting rod small diameter end. Tool: general tool. Part: 1 adjusting pin p145 and subassembly from Process 8.
+10. Install pin: rotate adjusting pin to expose connecting rod side hole, insert pin dia 2 into connecting rod. Tool: general tool. Part: 1 pin p162 and subassembly from Process 9.
+11. Component assembly: insert subassembly from Process 10 into subassembly from Process 1. Tool: general tool.
+12. Install set screw: screw two set screws into plug sides. Tool: thread tightening tool. Part: 2 set screws p157.
+
+Assembly Process for check valve cn11
+
+1. Install O-ring: push O-ring p175 along guide sleeve into plug corresponding groove. Tool: O-ring installation tool. Part: 1 O-ring p175, 1 plug p111.
+2. Install steel ball: place steel ball into valve housing. Tool: general tool. Part: 1 steel ball p155, 1 valve housing p124.
+3. Install spring: place spring into valve housing. Tool: general tool. Part: 1 spring p150.
+4. Install plug: place valve housing assembly into plug. Tool: general tool.
+5. Pre-tighten valve housing: pre-tighten valve housing. Tool: thread tightening tool.
+6. Apply torque: apply torque to product. Tool: thread tightening tool.
+7. Install O-ring: push O-ring p169 along guide sleeve into valve housing corresponding groove. Tool: O-ring tool.
+
+Assembly Process for check valve cn12
+
+1. Install O-ring: push O-ring p175 along guide sleeve into plug corresponding groove. Tool: O-ring tool. Part: 1 O-ring p175, 1 plug p111.
+2. Install spring: place spring seat small diameter end into spring seat tooling base. Tool: general tool. Part: 1 spring p153, 1 spring seat p98.
+3. Install steel ball: place steel ball into spring seat. Tool: general tool. Part: 1 steel ball p154.
+4. Install plug: place spring over spring seat small diameter end, install entire assembly into plug. Tool: general tool.
+5. Pre-tighten main valve sleeve: pre-tighten main valve sleeve. Tool: thread tool.
+6. Apply torque: apply torque to product. Tool: thread tool.
+7. Install O-ring: push O-ring p169 along guide sleeve into main valve sleeve corresponding groove. Tool: O-ring tool.
+
+Assembly Process for check valve cn13
+
+1. Install O-ring: push O-ring p175 along guide sleeve into plug corresponding groove. Tool: O-ring tool. Part: 1 O-ring p175, 1 plug p111.
+2. Install valve core: insert valve core small diameter end from valve housing small diameter end. Tool: general tool. Part: 1 valve core p134, 1 valve housing p131.
+3. Install spring: insert spring seat small diameter end into spring. Tool: general tool. Part: 1 spring p149, 1 spring seat p133.
+4. Install plug: install entire valve housing assembly into plug. Tool: general tool. Part: 1 plug p111.
+5. Pre-tighten valve housing: pre-tighten valve housing. Tool: thread tightening tool.
+6. Apply torque: apply torque to product. Tool: thread tightening tool.
+7. Install O-ring: push O-ring p168 along guide sleeve into main valve sleeve corresponding groove. Tool: O-ring tool.
+
+Assembly Process for check valve cn14
+
+1. Install spring: install spring into spring seat inner hole. Tool: general tool. Part: 1 spring p161, 1 spring seat p158.
+2. Install steel ball: install steel ball into spring seat inner hole. Tool: general tool. Part: 1 steel ball S-dia-2-GQ0200001.
+3. Install valve body: insert spring seat large outer diameter end into valve body small diameter step. Tool: general tool. Part: 1 valve body p159.
+4. Install pin: press pin into valve body. Tool: pressing tool. Part: 1 pin p160.
+
+Assembly Process for check valve cn15
+
+1. Install spring: install spring into spring seat inner hole. Tool: general tool. Part: 1 spring p161, 1 spring seat p158.
+2. Install steel ball: install steel ball into spring seat inner hole. Tool: general tool. Part: 1 steel ball S-dia-2-GQ0200001.
+3. Install valve body: insert spring seat large outer diameter end into valve body small diameter step. Tool: general tool. Part: 1 valve body p159.
+4. Install pin: press pin into valve body. Tool: pressing tool. Part: 1 valve body p159.
+
+Assembly Process for check valve cn16
+
+1. Install O-ring: push O-ring p175 along guide sleeve into plug corresponding groove. Tool: O-ring tool. Part: 1 O-ring p175, 1 plug p111.
+2. Install valve core: insert valve core small diameter end from valve housing small diameter end. Tool: general tool. Part: 1 valve core p134, 1 valve housing p132.
+3. Install spring: place spring into valve housing from thread end. Tool: general tool. Part: 1 spring p149.
+4. Install spring seat: insert spring seat small diameter end into spring. Tool: general tool. Part: 1 spring seat p133.
+5. Install plug: install entire valve housing assembly into plug. Tool: general tool. Part: 1 plug p111.
+6. Pre-tighten valve housing: pre-tighten valve housing. Tool: thread tightening tool.
+7. Apply torque: apply torque to entire product. Tool: thread tightening tool.
+8. Install O-ring: push O-ring p172 along guide sleeve into valve sleeve corresponding groove. Tool: O-ring tool.
+
+Assembly Process for check valve cn17
+
+1. Install O-ring: push O-ring p179 along guide sleeve into plug corresponding groove. Tool: O-ring tool. Part: 1 O-ring p179, 1 plug p110.
+2. Install steel ball: place steel ball into valve housing. Tool: general tool. Part: 1 steel ball p156, 1 valve housing p125.
+3. Install spring: place spring into valve housing. Tool: general tool. Part: 1 spring p151.
+4. Install plug: install entire valve housing assembly into plug. Tool: general tool. Part: 1 plug p110.
+5. Pre-tighten valve housing: pre-tighten valve housing. Tool: thread tightening tool.
+6. Apply torque: apply torque to entire product. Tool: thread tightening tool.
+7. Install O-ring: push O-ring p172 along guide sleeve into valve sleeve corresponding groove. Tool: O-ring tool.
+
+Assembly Process for check valve cn18
+
+1. Install O-ring: push O-ring p94 along guide sleeve into valve seat corresponding groove. Tool: O-ring tool. Part: 1 O-ring p94, 1 valve seat p148.
+2. Install O-ring: push O-ring p92 along guide sleeve into valve seat corresponding groove. Tool: O-ring tool. Part: 1 O-ring p92.
+3. Install O-ring: push O-ring p95 along guide sleeve into valve seat corresponding groove. Tool: O-ring tool. Part: 1 O-ring p95.
+4. Install conical valve core: insert conical valve core inner hole into valve seat. Tool: general tool. Part: 1 conical valve core p100, 1 valve seat p148.
+5. Install plug: screw plug into valve seat. Tool: thread tightening tool. Part: 1 plug p146.
+6. Apply torque: apply torque to entire valve assembly. Tool: thread tightening tool.
+
+Assembly Process for check valve cn19
+
+1. Install O-ring: push O-ring p174 along guide sleeve into plug corresponding groove. Tool: O-ring tool. Part: 1 O-ring p174, 1 plug p126.
+2. Install O-ring: push O-ring p180 along guide sleeve into outer valve seat corresponding groove. Tool: O-ring tool. Part: 1 O-ring p180, 1 outer valve seat p163.
+3. Install O-ring: push O-ring p173 along guide sleeve into outer valve seat corresponding groove. Tool: O-ring tool. Part: 1 O-ring p173.
+4. Install conical valve sleeve: install conical valve sleeve into outer valve seat. Tool: general tool. Part: 1 conical valve sleeve p164.
+5. Install plug: screw plug into outer valve seat. Tool: thread tightening tool. Part: 1 plug p126.
+6. Pre-tighten plug: pre-tighten plug. Tool: thread tightening tool.
+7. Apply torque: apply torque to entire product. Tool: thread tightening tool.

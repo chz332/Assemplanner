@@ -1,0 +1,7 @@
+[
+    {
+      "name": "line_balance_task_1",
+      "question": "Total of 12 processes as follows, each process has its duration (unit: seconds), please assign them to workstations\nProcess list:\n1: 124, 2: 82, 3: 71, 4: 94, 5: 72, 6: 67, 7: 78, 8: 102, 9: 138, 10: 102, 11: 147, 12: 58\nProcess 1 is the predecessor of processes 2, 3, 5, 6, 7, 11, 12, process 2 is the predecessor of processes 3, 5, 6, 7, 11, 12, process 3 is the predecessor of processes 5, 6, 7, 11, 12, process 5 is the predecessor of processes 6, 7, 11, 12, process 6 is the predecessor of processes 7, 11, 12, process 7 is the predecessor of processes 11, 12, process 11 is the predecessor of process 12, process 4 is the predecessor of process 5, process 8 is the predecessor of processes 9, 11, process 9 is the predecessor of process 11, process 10 is the predecessor of process 11, predecessor processes must be completed before subsequent processes",
+      "ground_truth": "A reasonable plan should balance workstation work time"
+    }
+  ]

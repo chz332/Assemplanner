@@ -1,0 +1,164 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 850px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#f4a261", "font": {"size": 20}, "id": "room1", "label": "\u5de5\u5177\u5e93", "shape": "dot", "size": 25, "title": "\u003cb\u003e\u7c7b\u578b:\u003c/b\u003e Room\u003cbr\u003e\u003cb\u003e\u540d\u79f0:\u003c/b\u003e \u5de5\u5177\u5e93", "type": "Room"}, {"color": "#f4a261", "font": {"size": 20}, "id": "room", "label": "room", "shape": "dot", "size": 25, "title": "\u003cb\u003e\u7c7b\u578b:\u003c/b\u003e Room\u003cbr\u003e\u003cb\u003e\u540d\u79f0:\u003c/b\u003e room", "type": "Room"}, {"color": "#f4a261", "font": {"size": 20}, "id": "room2", "label": "\u5de5\u5177\u5e93", "shape": "dot", "size": 25, "title": "\u003cb\u003e\u7c7b\u578b:\u003c/b\u003e Room\u003cbr\u003e\u003cb\u003e\u540d\u79f0:\u003c/b\u003e \u5de5\u5177\u5e93", "type": "Room"}, {"color": "#f4a261", "font": {"size": 20}, "id": "room3", "label": "\u96f6\u4ef6\u5e93", "shape": "dot", "size": 25, "title": "\u003cb\u003e\u7c7b\u578b:\u003c/b\u003e Room\u003cbr\u003e\u003cb\u003e\u540d\u79f0:\u003c/b\u003e \u96f6\u4ef6\u5e93", "type": "Room"}, {"color": "#f4a261", "font": {"size": 20}, "id": "room4", "label": "\u96f6\u4ef6\u5e93", "shape": "dot", "size": 25, "title": "\u003cb\u003e\u7c7b\u578b:\u003c/b\u003e Room\u003cbr\u003e\u003cb\u003e\u540d\u79f0:\u003c/b\u003e \u96f6\u4ef6\u5e93", "type": "Room"}, {"color": "#2a9d8f", "font": {"size": 20}, "id": "shelves1", "label": "\u8d27\u67b61", "shape": "dot", "size": 25, "title": "\u003cb\u003e\u7c7b\u578b:\u003c/b\u003e shelves\u003cbr\u003e\u003cb\u003e\u540d\u79f0:\u003c/b\u003e \u8d27\u67b61", "type": "shelves"}, {"color": "#2a9d8f", "font": {"size": 20}, "id": "shelves2", "label": "\u8d27\u67b62", "shape": "dot", "size": 25, "title": "\u003cb\u003e\u7c7b\u578b:\u003c/b\u003e shelves\u003cbr\u003e\u003cb\u003e\u540d\u79f0:\u003c/b\u003e \u8d27\u67b62", "type": "shelves"}, {"color": "#2a9d8f", "font": {"size": 20}, "id": "shelves3", "label": "\u8d27\u67b63", "shape": "dot", "size": 25, "title": "\u003cb\u003e\u7c7b\u578b:\u003c/b\u003e shelves\u003cbr\u003e\u003cb\u003e\u540d\u79f0:\u003c/b\u003e \u8d27\u67b63", "type": "shelves"}, {"color": "#2a9d8f", "font": {"size": 20}, "id": "shelves4", "label": "\u8d27\u67b64", "shape": "dot", "size": 25, "title": "\u003cb\u003e\u7c7b\u578b:\u003c/b\u003e shelves\u003cbr\u003e\u003cb\u003e\u540d\u79f0:\u003c/b\u003e \u8d27\u67b64", "type": "shelves"}, {"color": "#2a9d8f", "font": {"size": 20}, "id": "shelves5", "label": "\u8d27\u67b65", "shape": "dot", "size": 25, "title": "\u003cb\u003e\u7c7b\u578b:\u003c/b\u003e shelves\u003cbr\u003e\u003cb\u003e\u540d\u79f0:\u003c/b\u003e \u8d27\u67b65", "type": "shelves"}, {"color": "#e76f51", "font": {"size": 20}, "id": "tool1", "label": "\u901a\u7528\u5de5\u5177", "shape": "dot", "size": 25, "title": "\u003cb\u003e\u7c7b\u578b:\u003c/b\u003e Tool\u003cbr\u003e\u003cb\u003e\u540d\u79f0:\u003c/b\u003e \u901a\u7528\u5de5\u5177", "type": "Tool"}, {"color": "#e76f51", "font": {"size": 20}, "id": "tool2", "label": "\u538b\u7d27\u5de5\u5177", "shape": "dot", "size": 25, "title": "\u003cb\u003e\u7c7b\u578b:\u003c/b\u003e Tool\u003cbr\u003e\u003cb\u003e\u540d\u79f0:\u003c/b\u003e \u538b\u7d27\u5de5\u5177", "type": "Tool"}, {"color": "#e76f51", "font": {"size": 20}, "id": "tool3", "label": "\u62e7\u87ba\u7eb9\u5de5\u5177", "shape": "dot", "size": 25, "title": "\u003cb\u003e\u7c7b\u578b:\u003c/b\u003e Tool\u003cbr\u003e\u003cb\u003e\u540d\u79f0:\u003c/b\u003e \u62e7\u87ba\u7eb9\u5de5\u5177", "type": "Tool"}, {"color": "#e76f51", "font": {"size": 20}, "id": "tool4", "label": "\u80f6\u5708\u5de5\u5177", "shape": "dot", "size": 25, "title": "\u003cb\u003e\u7c7b\u578b:\u003c/b\u003e Tool\u003cbr\u003e\u003cb\u003e\u540d\u79f0:\u003c/b\u003e \u80f6\u5708\u5de5\u5177", "type": "Tool"}, {"color": "#264653", "font": {"size": 20}, "id": "part1", "label": "O\u578b\u5708", "shape": "dot", "size": 25, "title": "\u003cb\u003e\u7c7b\u578b:\u003c/b\u003e Part\u003cbr\u003e\u003cb\u003e\u540d\u79f0:\u003c/b\u003e O\u578b\u5708", "type": "Part"}, {"color": "#264653", "font": {"size": 20}, "id": "part2", "label": "\u9600\u82af", "shape": "dot", "size": 25, "title": "\u003cb\u003e\u7c7b\u578b:\u003c/b\u003e Part\u003cbr\u003e\u003cb\u003e\u540d\u79f0:\u003c/b\u003e \u9600\u82af", "type": "Part"}, {"color": "#264653", "font": {"size": 20}, "id": "part3", "label": "\u9600\u5ea7", "shape": "dot", "size": 25, "title": "\u003cb\u003e\u7c7b\u578b:\u003c/b\u003e Part\u003cbr\u003e\u003cb\u003e\u540d\u79f0:\u003c/b\u003e \u9600\u5ea7", "type": "Part"}, {"color": "#264653", "font": {"size": 20}, "id": "part4", "label": "\u9600\u58f3", "shape": "dot", "size": 25, "title": "\u003cb\u003e\u7c7b\u578b:\u003c/b\u003e Part\u003cbr\u003e\u003cb\u003e\u540d\u79f0:\u003c/b\u003e \u9600\u58f3", "type": "Part"}, {"color": "#264653", "font": {"size": 20}, "id": "part5", "label": "\u9600\u5957", "shape": "dot", "size": 25, "title": "\u003cb\u003e\u7c7b\u578b:\u003c/b\u003e Part\u003cbr\u003e\u003cb\u003e\u540d\u79f0:\u003c/b\u003e \u9600\u5957", "type": "Part"}, {"color": "#264653", "font": {"size": 20}, "id": "part6", "label": "\u5835\u5934", "shape": "dot", "size": 25, "title": "\u003cb\u003e\u7c7b\u578b:\u003c/b\u003e Part\u003cbr\u003e\u003cb\u003e\u540d\u79f0:\u003c/b\u003e \u5835\u5934", "type": "Part"}, {"color": "#264653", "font": {"size": 20}, "id": "part7", "label": "\u5f39\u7c27", "shape": "dot", "size": 25, "title": "\u003cb\u003e\u7c7b\u578b:\u003c/b\u003e Part\u003cbr\u003e\u003cb\u003e\u540d\u79f0:\u003c/b\u003e \u5f39\u7c27", "type": "Part"}, {"color": "#264653", "font": {"size": 20}, "id": "part8", "label": "\u8c03\u6574\u87ba\u9489", "shape": "dot", "size": 25, "title": "\u003cb\u003e\u7c7b\u578b:\u003c/b\u003e Part\u003cbr\u003e\u003cb\u003e\u540d\u79f0:\u003c/b\u003e \u8c03\u6574\u87ba\u9489", "type": "Part"}, {"color": "#264653", "font": {"size": 20}, "id": "part9", "label": "\u8c03\u6574\u87ba\u9489\u5ea7", "shape": "dot", "size": 25, "title": "\u003cb\u003e\u7c7b\u578b:\u003c/b\u003e Part\u003cbr\u003e\u003cb\u003e\u540d\u79f0:\u003c/b\u003e \u8c03\u6574\u87ba\u9489\u5ea7", "type": "Part"}, {"color": "#264653", "font": {"size": 20}, "id": "part10", "label": "\u9501\u7d27\u87ba\u6bcd", "shape": "dot", "size": 25, "title": "\u003cb\u003e\u7c7b\u578b:\u003c/b\u003e Part\u003cbr\u003e\u003cb\u003e\u540d\u79f0:\u003c/b\u003e \u9501\u7d27\u87ba\u6bcd", "type": "Part"}, {"color": "#264653", "font": {"size": 20}, "id": "part11", "label": "\u94a2\u7403", "shape": "dot", "size": 25, "title": "\u003cb\u003e\u7c7b\u578b:\u003c/b\u003e Part\u003cbr\u003e\u003cb\u003e\u540d\u79f0:\u003c/b\u003e \u94a2\u7403", "type": "Part"}, {"color": "#264653", "font": {"size": 20}, "id": "part12", "label": "\u8fde\u6746", "shape": "dot", "size": 25, "title": "\u003cb\u003e\u7c7b\u578b:\u003c/b\u003e Part\u003cbr\u003e\u003cb\u003e\u540d\u79f0:\u003c/b\u003e \u8fde\u6746", "type": "Part"}, {"color": "#264653", "font": {"size": 20}, "id": "part13", "label": "\u9500\u5b50", "shape": "dot", "size": 25, "title": "\u003cb\u003e\u7c7b\u578b:\u003c/b\u003e Part\u003cbr\u003e\u003cb\u003e\u540d\u79f0:\u003c/b\u003e \u9500\u5b50", "type": "Part"}, {"color": "#264653", "font": {"size": 20}, "id": "part14", "label": "\u57fa\u7c73", "shape": "dot", "size": 25, "title": "\u003cb\u003e\u7c7b\u578b:\u003c/b\u003e Part\u003cbr\u003e\u003cb\u003e\u540d\u79f0:\u003c/b\u003e \u57fa\u7c73", "type": "Part"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "from": "room1", "label": "is", "title": "\u5173\u7cfb: is", "to": "room", "width": 2}, {"arrows": "to", "from": "room2", "label": "is", "title": "\u5173\u7cfb: is", "to": "room", "width": 2}, {"arrows": "to", "from": "room3", "label": "is", "title": "\u5173\u7cfb: is", "to": "room", "width": 2}, {"arrows": "to", "from": "room4", "label": "is", "title": "\u5173\u7cfb: is", "to": "room", "width": 2}, {"arrows": "to", "from": "shelves1", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "room1", "width": 2}, {"arrows": "to", "from": "shelves2", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "room2", "width": 2}, {"arrows": "to", "from": "shelves3", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "room3", "width": 2}, {"arrows": "to", "from": "shelves4", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "room4", "width": 2}, {"arrows": "to", "from": "shelves5", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "room4", "width": 2}, {"arrows": "to", "from": "tool1", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "shelves1", "width": 2}, {"arrows": "to", "from": "tool1", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "room1", "width": 2}, {"arrows": "to", "from": "tool2", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "shelves1", "width": 2}, {"arrows": "to", "from": "tool2", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "room1", "width": 2}, {"arrows": "to", "from": "tool3", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "shelves2", "width": 2}, {"arrows": "to", "from": "tool3", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "room2", "width": 2}, {"arrows": "to", "from": "tool4", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "shelves2", "width": 2}, {"arrows": "to", "from": "tool4", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "room2", "width": 2}, {"arrows": "to", "from": "part1", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "shelves3", "width": 2}, {"arrows": "to", "from": "part1", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "room3", "width": 2}, {"arrows": "to", "from": "part2", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "shelves3", "width": 2}, {"arrows": "to", "from": "part2", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "room3", "width": 2}, {"arrows": "to", "from": "part3", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "shelves3", "width": 2}, {"arrows": "to", "from": "part3", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "room3", "width": 2}, {"arrows": "to", "from": "part4", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "shelves3", "width": 2}, {"arrows": "to", "from": "part4", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "room3", "width": 2}, {"arrows": "to", "from": "part5", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "shelves3", "width": 2}, {"arrows": "to", "from": "part5", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "room3", "width": 2}, {"arrows": "to", "from": "part6", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "shelves3", "width": 2}, {"arrows": "to", "from": "part6", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "room3", "width": 2}, {"arrows": "to", "from": "part7", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "shelves3", "width": 2}, {"arrows": "to", "from": "part7", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "room3", "width": 2}, {"arrows": "to", "from": "part8", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "shelves3", "width": 2}, {"arrows": "to", "from": "part8", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "room3", "width": 2}, {"arrows": "to", "from": "part9", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "shelves3", "width": 2}, {"arrows": "to", "from": "part9", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "room3", "width": 2}, {"arrows": "to", "from": "part10", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "shelves3", "width": 2}, {"arrows": "to", "from": "part10", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "room3", "width": 2}, {"arrows": "to", "from": "part11", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "shelves3", "width": 2}, {"arrows": "to", "from": "part11", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "room3", "width": 2}, {"arrows": "to", "from": "part12", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "shelves3", "width": 2}, {"arrows": "to", "from": "part12", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "room3", "width": 2}, {"arrows": "to", "from": "part13", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "shelves4", "width": 2}, {"arrows": "to", "from": "part13", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "room4", "width": 2}, {"arrows": "to", "from": "part14", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "shelves5", "width": 2}, {"arrows": "to", "from": "part14", "label": "located_in", "title": "\u5173\u7cfb: located_in", "to": "room4", "width": 2}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "forceAtlas2Based": {
+            "avoidOverlap": 0.6,
+            "centralGravity": 0.02,
+            "damping": 0.4,
+            "gravitationalConstant": -100,
+            "springConstant": 0.08,
+            "springLength": 80
+        },
+        "solver": "forceAtlas2Based",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
