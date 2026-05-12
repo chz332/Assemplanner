@@ -33,7 +33,7 @@ Embedding_BASE_URL=https://api.openai.com/v1
 ## 📁 Project Structure
 
 ```
-LightRAG-open/
+assemplanner/
 ├── QA/                    # RAG Question Answering Module
 │   ├── QA_demo.py         # Demo script for RAG functionality
 │   ├── QA_test.py         # Batch testing for QA pipeline
