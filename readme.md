@@ -2,7 +2,7 @@
 
 ## 🎥 Demo Video
 
-![运行视频](assets/运行视频.mp4)
+<video src="assets/demo_video.mp4" controls width="100%"></video>
 
 ## 🚀 Quick Start
 
