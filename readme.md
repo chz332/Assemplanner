@@ -1,5 +1,9 @@
 📄 [AssemPlanner: A Multi-Agent Based Task Planning Framework for Flexible Assembly System](https://arxiv.org/abs/2605.08831)
 
+## 🎥 Demo Video
+
+<video src="assets/运行视频.mp4" controls width="100%"></video>
+
 ## 🚀 Quick Start
 
 ### Prerequisites
