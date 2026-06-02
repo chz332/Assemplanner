@@ -2,7 +2,7 @@
 
 ## 🎥 Demo Video
 
-<video src="assets/demo_video.mp4" controls width="100%"></video>
+<video src="https://github.com/chz332/Assemplanner/raw/main/assets/demo_video.mp4" controls width="100%">您的浏览器不支持视频播放，请<a href="assets/demo_video.mp4">点击下载</a>查看。</video>
 
 ## 🚀 Quick Start
 
