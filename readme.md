@@ -4,7 +4,7 @@
 
 <video src="https://github.com/chz332/Assemplanner/raw/main/assets/demo_video.mp4" controls width="100%"></video>
 
-如果无法播放，请在 [GitHub](https://github.com/chz332/Assemplanner/blob/main/assets/demo_video.mp4) 上查看。
+If playback fails, view it on [GitHub](https://github.com/chz332/Assemplanner/blob/main/assets/demo_video.mp4).
 
 ## 🚀 Quick Start
 
